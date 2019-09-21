@@ -23,15 +23,16 @@ img {
     height: 87px;
     float: right;
 }
-h2 {
+h2 
+{
     border-bottom-style: solid;
     margin-bottom: 10px;
 }
 li {
     font-size: 15px;
     font-family: sans-serif;
-
 }
+
 #b{
     text-decoration: underline;
     color: white;
