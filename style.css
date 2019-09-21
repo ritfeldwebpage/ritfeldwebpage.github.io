@@ -8,3 +8,19 @@ header, footer{
     padding: .5rem;
 
 }
+header {
+    font-size: 20px;
+}
+footer {
+    font-size: 15px;
+}
+main {
+    margin: 1.25rem auto;
+    padding: 5rem;
+    max-width: 700px;
+}
+img {
+    width: 89px;
+    height: 87px;
+    float: right;
+}
