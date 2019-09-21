@@ -24,3 +24,17 @@ img {
     height: 87px;
     float: right;
 }
+h2 {
+    border-bottom-style: solid;
+    margin-bottom: 10px;
+}
+li {
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+#b{
+    text-decoration: underline;
+    color: white;
+}
+* {margin: 0; box-sizing: border-box; }
