@@ -1,40 +1,61 @@
-header, footer{
-    font-family: sans-serif;
-    color: white;
-    text-align: center;
-    background: #26312b;
-    max-width: 700px;
-    margin: 1.25rem auto;
-    padding: .5rem;
-}
-header {
-    font-size: 20px;
-}
-footer {
-    font-size: 15px;
-}
-main {
-    margin: 1.25rem auto;
-    padding: .5rem;
-    max-width: 700px;
-}
-img {
-    width: 89px;
-    height: 87px;
-    float: right;
-}
-h2 
-{
-    border-bottom-style: solid;
-    margin-bottom: 10px;
-}
-li {
-    font-size: 15px;
-    font-family: sans-serif;
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
 }
 
-#b{
-    text-decoration: underline;
-    color: white;
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
 }
-* {margin: 0; box-sizing: border-box; }
+
+header,
+footer {
+    border-radius: 10px;
+    background-color: burlywood;
+    color: saddlebrown;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+a.school:link {
+    color: saddlebrown;
+}
+
+a.school:visited {
+    color: saddlebrown;
+}
+
+a.school:hover {
+    color: wheat;
+}
+
+a.school:active {
+    color: beige;
+}
+
+
+
+img {
+    float: right;
+    margin: 8px;
+    width: 200px;
+    height: 274px;
+}
+
+h1 {
+    font-size: 2.75em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.875em;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 0.875em;
+}
