@@ -7,9 +7,15 @@ header, footer{
     margin: 1.25rem auto;
     padding: .5rem;
 }
-header {
+h1 {
     font-size: 20px;
+    font-family: 'Russo One', sans-serif;
 }
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 footer {
     font-size: 15px;
 }
@@ -18,6 +24,7 @@ main {
     padding: .5rem;
     max-width: 700px;
 }
+
 img {
     width: 89px;
     height: 87px;
@@ -38,3 +45,4 @@ li {
     color: white;
 }
 * {margin: 0; box-sizing: border-box; }
+
