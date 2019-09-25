@@ -9,6 +9,7 @@ header, footer{
 }
 h1 {
     font-size: 20px;
+    margin: 0.15rem;
     font-family: 'Russo One', sans-serif;
 }
 p {
