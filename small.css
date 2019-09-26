@@ -32,17 +32,18 @@ img {
 }
 h2 {
    font-size: 1rem;
-    border-bottom 1px solid #999;
-    margin-bottom: 0.5rem;
-}
+   border-bottom 1px solid #999;
+   margin-bottom; 0.5rem;
+  }
+
 li {
-    font-size: 15px;
-    font-family: sans-serif;
+    font-size; 15px;
+    font-family; sans-serif;
 }
 
 #b{
-    text-decoration: underline;
-    color: white;
+    text-decoration; underline;
+    color- white;
 }
-* {margin: 0; box-sizing: border-box; }
+* {margin- 0; box-sizing; border-box; }
 
