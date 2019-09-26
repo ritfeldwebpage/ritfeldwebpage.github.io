@@ -1,4 +1,4 @@
-header, footer{
+header, footer {
     font-family: sans-serif;
     color: white;
     text-align: center;
@@ -14,8 +14,6 @@ h1 {
 p {
     font-family: 'Montserrat', sans-serif;
 }
-
-
 footer {
     font-size: 15px;
 }
@@ -32,8 +30,8 @@ img {
 }
 h2 {
    font-size: 1rem;
-   border-bottom; 1px solid #999;
-   margin-bottom; 0.5rem;
+   border-bottom: 1px solid #999;
+   margin-bottom: 0.5rem;
   }
 
 li {
