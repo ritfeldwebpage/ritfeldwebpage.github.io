@@ -34,11 +34,11 @@ section {margin: 10px auto;width: 400px;border:1px solid #bbb;background-color:#
 
 @media (min-width: 64em) {}
 h2 {
-    color: green;
+    color: orange;
 }
 @media (min-width: 32.5em) {}
 h2 {
-    color: red;
+    color: green;
 }
 h2 {
     margin: 0;
