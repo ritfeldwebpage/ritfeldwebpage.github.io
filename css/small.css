@@ -1,24 +1,105 @@
-@media only screen and (min-width: 320px) {
-	h1 {
-font-size: 2.5rem;
+header, footer {
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    background:		#ff9900;
+    max-width: 700px;
+    margin: 1.25rem auto;
+    padding: .5rem;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    height: 100%; 
 }
 
 h1 {
-font-size: 1.5rem;
+    font-size: 1.5rem;
+    margin: 0.15rem;
 }
 
-header, footer {
-  border-radius: 10px;
+.subheading {
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
 }
-header img{
-  float: left;
-  border-radius: 0 10px 0 0;
 
+h2 {
+    font-size: 1rem;
+    border-bottom: 1px solid #999;
+    margin-bottom: 0.5rem;
+}
+
+header,
+nav,
+main,
+footer {
+margin: 0 auto;
+padding: 0.75rem;
 }
 }
-@media only screen and (max-width: 480px)
-{
-	.l2main {
-  grid-template-columns: 1fr;
+h1 {
+    font-size: 1.5rem;
+    font-family: 'Russo One', sans-serif;
+   }
+p {
+    font-family: 'Montserrat', sans-serif;
 }
+footer {
+    font-size: 15px;
 }
+main {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 700px;
+}
+
+img {
+    width: 89px;
+    height: 87px;
+    float: right;
+}
+@media only screen and (min-width: 32.5em) {
+h2 {color: blue; margin:0;border: bottom 1px dashed #999;}
+section {margin: 10px auto;width: 400px;border:1px solid #bbb;background-color:#eee; padding: 7px;}
+
+@media (min-width: 64em) {}
+h2 {
+    color: orange;
+}
+@media (min-width: 32.5em) {}
+h2 {
+    color: green;
+}
+h2 {
+    margin: 0;
+    border-bottom: 1px dashed #999; 
+}
+
+section {margin: 10px auto width: 400px:border:1px solid #bbb:background-color:#ccc: padding: 7px;} {
+   font-size: 1rem;
+   border-bottom 1px solid #999;
+   margin-bottom 0.5rem;
+  }
+
+li {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#b{
+    text-decoration: underline;
+    color-white:
+}
+
+
+* {
+    margin: 0; box-sizing: border-box; 
+}
+
