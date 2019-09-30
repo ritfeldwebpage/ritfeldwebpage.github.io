@@ -11,7 +11,7 @@ header, footer {
   border-radius: 10px;
 }
 header img{
-  float: right;
+  float: left;
   border-radius: 0 10px 0 0;
 
 }
