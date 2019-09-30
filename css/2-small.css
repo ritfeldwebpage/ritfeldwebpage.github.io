@@ -1,99 +1,104 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-
+/*Default rules*/
+/*rules for body of pg*/
 body {
-    font-size: 1em;
+    font-size: 100%;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
-    color: rgb(202, 201, 105);
 }
-
-h1 {
-    font-size: 1.5rem;
-    color: black;
+/*rules starting at the header and working down pg*/
+header {
+    padding: .5rem 2%;
 }
-
-h2 {
+header h1 {
+    margin: 0;
     font-size: 1rem;
-    text-align: left;
-    border-bottom: 2px solid black;
 }
-
-header,
-main,
-footer {
-    margin: 1.25rem auto;
-    padding: .5rem;
+header h2 {
+    margin: 0;
+    font-size: .5rem;
+}
+header, nav, main, footer {
+    margin: 0 auto;
     max-width: 750px;
 }
-
-header,
-footer {
+header, footer {
     text-align: center;
-    background-color: #ff9900;
-
+    background-color:  #5BBA93;
+    color: black;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: solid thin black;
+}
+p {
+    text-align: left;
+}
+ #p1 {
+    text-align: center;
 }
 
-header img {
-    width: auto;
-    height: auto;
-    border: 1px solid #b0b015;
+#p2 {
+    text-align: center;
 }
-
-header {
-    padding: 20px;
+#p3 {
+    text-align: center;
 }
-
-
-
-/*header {
-    font-family: 'Source Serif Pro', serif;
+button {
     background-color: #5BBA93;
-    color: #000000;
+    border-radius: 10px;
+    
+    }
+
+main {
+    max-width: 750px;
+    margin: 0 auto;
+    }
+
+h3 {
+   
+    background-color: white;
+    color: black;
     text-align: center;
-    padding: 1rem;
+}
+main picture {
+    display: block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1rem;
+}
+
+main section {
+    margin: 0.5rem;
+    border: 1px solid black;
+    padding: 0 1rem;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
 
 }
-h1 { 
-    color: #5BBA93;
-    font-size: 1.5rem;
-    margin: 0.15rem;
+
+section:nth-child(2) {
+    display: none;
+    margin: 0.5rem;
+
+}
+
+header footer {
+    text-align: center;
+    background-color: #5BBA93;
 }
 
 h2 {
-    text-decoration-line: underline
-    font-size: 1rem;
-}
-.kimpic {
-    margin-top: -150px;
+    color: black;
+
 }
 
-
-
-Section {
-    margin-top: -150px;
-}
-
-header,
-nav,
-main,
-footer,
-body {
-    margin: 2rem auto;
-    max-width: 760px;
-}
-
-img {
-    margin-left: 550px;
-    margin-top: 50px;
-    border: 1px solid #000000;
-    border-radius: 25px;
-}
-
-footer {
-    background-color: #5BBA93;
-    color: #000000;
-    text-align: center;
+p {
+    text-align: left;
 }
