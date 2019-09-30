@@ -7,7 +7,7 @@ body {
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
-    color: black;
+    color: rgb(202, 201, 105);
 }
 
 h1 {
@@ -32,14 +32,14 @@ footer {
 header,
 footer {
     text-align: center;
-    background-color: #5BBA93;
+    background-color: rgb(228, 208, 28);
 
 }
 
 header img {
     width: auto;
     height: auto;
-    border: 1px solid rgba(189, 172, 25, 0.884), 0.808);
+    border: 1px solid rgba(245, 222, 14, 0.856), 0.808);
 }
 
 header {
