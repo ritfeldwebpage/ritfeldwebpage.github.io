@@ -39,7 +39,7 @@ footer {
 header img {
     width: auto;
     height: auto;
-    border: 1px solid #000000;
+    border: 1px solid rgba(189, 172, 25, 0.884), 0.808);
 }
 
 header {
