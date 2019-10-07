@@ -24,10 +24,10 @@ header, nav, main, footer {
 header, footer {
     text-align: center;
     background-color:  #DE781F;
-    color: lightskyblue;
+    color: black
     margin: 0 auto;
     border-radius: 10px;
-    border: solid thin black;
+    border: solid thin black
 }
 p {
     text-align: left;
