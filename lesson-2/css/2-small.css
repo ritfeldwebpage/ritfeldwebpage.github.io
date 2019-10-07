@@ -53,7 +53,7 @@ main {
 h3 {
    
     background-color: white;
-    color: #b3c6ff
+    color:  #b3c6ff
     text-align: center;
 }
 main picture {
@@ -72,11 +72,11 @@ main {
 
 main section {
     margin: 0.5rem;
-    border: 1px solid #5BBA93;
+    border: 1px solid #b3c6ff
     padding: 0 1rem;
-    color: white;
-    background-color: #00ccff;
-    border-radius: 10px;
+    color white
+    background-color #b3c6ff
+    border-radius 10px;
 
 }
 
