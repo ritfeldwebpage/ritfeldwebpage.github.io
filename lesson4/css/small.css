@@ -49,7 +49,7 @@ header, footer {
 header {
     line-height: .5;
     background-color: #0059b3;
-    color: #B969EB;
+    color: #23D2E8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,7 +94,7 @@ a:hover {
 
 a:active {
     background-color: #0059b3;
-    color: #B969EB;  
+    color: #23D2E8;  
 }
 
 
