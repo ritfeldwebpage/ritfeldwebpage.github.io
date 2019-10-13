@@ -58,19 +58,27 @@ font-weight: 700;
 	display: block;
 }
 
-/* Media Query for medium + screens */
-@media only screen and (min-width: 32.5em) {
-	.navigation {
-		display: flex;
-	}
-	.navigation li:first-child {
-		display: none;
-	}
-	.navigation li {
-		display: block;
-		flex: 1 1 100%;
-	}
-	.navigation li a {
-		color: yellow;
-	}
+h4, h5 {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    background-color: #94C9FF;
+    color: #00264d;
+}
+
+p {
+    font-size: 1.25em;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.2rem;
+    color: #00264d;
+}
+
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #0059b3;
+    padding: 15px;
+    font-style: italic;
+}
+.responsive li {
+	display: block;
 }
