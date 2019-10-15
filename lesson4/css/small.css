@@ -74,7 +74,7 @@ header, footer {
 }
 
 header {
-    line-height: .5;
+    line-height: .10;
     background-color: #3399ff;
     color: 	#99ff33;
     display: flex;
