@@ -1,1 +1,0 @@
-document.getElementById("lastMod").textContext = document.lastModified();
