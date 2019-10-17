@@ -20,8 +20,9 @@ nav {
 
 .navigation {
     list-style: none;
-    text-align: left;
     padding: 0;
+    text-align: left;
+    
 }
 .navigation li:first-child {
 	display: block;
