@@ -1,63 +1,136 @@
-* {  -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box; box-sizing:
-    border-box; }
-
-    html {-webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;}
-    
-/* body rules here */  
 body {
-    font-family: Verdana;
-    font-size: 16px;
-} 
-/* header rules here*/
-header {
-    background-color: lightseagreen;
-    padding: 1rem 2%;
-}
-header h1 {
-     margin: 0;
-}
-header h2 {
-    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
 }
 
-/* navigation rules here */
-nav {background-color: skyblue}
-nav ul {margin: 0; padding: 0;}
-nav li {list-style-type: none} 
-nav li.active {background-color: #333}
-nav a {
-    display: block;
-    padding: .8rem 0; /* 44 min height */
-    color: #eee;
-    text-align: center;
-    text-decoration: none
-}
-nav a:hover {background-color: #444;}
-
-/* main rules here */
-main {
-    padding: 1rem 2%;
-    display: block;
-}
-main h1 {color: #17a8e4;}
-
-main figure img {width: 100%;}
-main figure{ width: 100%; margin: 0;
-}
-main figure {text-align: center; font-size: .8rem;}
-
+header,
+nav,
+main,
 footer {
+
+    max-width: 760px;
+    margin: 0 auto;
+
+}
+
+nav {
+    font-size: .75em;
+    background-color: lightgray;
+    color: black;
     text-align: center;
-    padding: 1rem 2%;
-    background-color: #19a8e4;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav li a {
+	display: block;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+
+header, footer {
+    background-color: lightskyblue;
+    color: red;
+    text-align: center;
+    padding: .5rem;
+}
+
+header {
+    line-height: .5;
+}
+
+a:link {
+    color: royalblue;
+}
+
+a:visited {
+    color: maroon;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: blueviolet;  
+}
+
+a.school:link {
+    color: burlywood;
+}
+
+a.school:visited {
+    color: bisque;
+}
+
+a.school:hover {
+    color: seagreen}
+
+a.school:active {
+    color: beige;
 }
 
 
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+img {
+    max-width: 100%;
+    height: auto;
+    float: left;
 }
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Trirong', serif;
+    line-height:100%;
+
+}
+
+h2 {
+    font-size: 1.75em;
+    font-family: 'Poppins', sans-serif;
+
+}
+h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+
+}
+h4, h5 {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 1.25em;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.2rem;
+    color: black;
+}
+
+h1.header {
+    background-color: #0059b3;
+    color: slategray;
+}
+
+h1.weather, h2.weather, h3.weather {
+    color: darksalmon;
+}
+
+h4.weather, h5.weather {
+    background-color: lightsteelblue;
+    color: darkslateblue;
+}
+
+p.weather {
+    color: darkslateblue;
+}
+
