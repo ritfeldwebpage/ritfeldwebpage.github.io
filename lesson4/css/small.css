@@ -16,7 +16,7 @@ header, nav {
 nav {
     padding: 0;
     font-size: .75em;
-    background-color: lightsteelblue;
+    background-color: olive;
 }
 nav ul {
     padding: 0;
@@ -52,8 +52,8 @@ header, footer {
 
 header {
     line-height: .5;
-    background-color: lightskyblue;
-    color: red;
+    background-color: #94C9FF;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,16 +79,16 @@ header {
  }
 
 footer {
-    background-color: aqua;
-    color: sandybrown;
+    background-color: orange;
+    color: black;
 }
 
 a:link {
-    color: red;
+    color: slategrey;
 }
 
 a:visited {
-    color: burlywood;
+    color: orange;
 }
 
 a:hover {
