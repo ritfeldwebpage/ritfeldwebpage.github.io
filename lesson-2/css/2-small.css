@@ -1,106 +1,24 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 100%;
-    line-height: 1.5;
-}
-
-header,
-nav,
-main,
-footer {
-    margin: 1.25rem auto;
-    max-width: 760px;
-}
-
-nav {
-    font-size: .75em;
-}
-
-header, footer {
-    background-color: orange;
-    color: lightsalmon;
-    text-align: center;
-    padding: .5rem;
-}
-
-header {
-    line-height: .5;
-}
-
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-main section {
-    margin: 1rem;
-    border: 1px solid lightseagreen;
-    border-radius: 10px 10px 0px 0px;
-    background-color:rgb(255, 248, 235);
-    }
-
-a:link {
-    color: ;
-}
-
-a:visited {
-    color: lightgrey;
-}
-
-a:hover {
-    color: bisque;
-}
-
-a:active {
-    color: rosybrown;  
-}
-
-a.school:link {
-    color: olive;
-}
-
-a.school:visited {
-    color: bisque;
-}
-
-a.school:hover {
-    color: white}
-
-a.school:active {
-    color: grey;
-}
-
-
-img {
-    max-width: 100%;
-    height: auto;
-    float: left;
+@media only screen and (min-width: 480px) {
+	h1 {
+font-size: 2.5rem;
 }
 
 h1 {
-    font-size: 2.5em;
-    font-weight: bold;
-    font-family: 'Trirong', serif;
+font-size: 1.5rem;
 }
 
-h2 {
-    font-size: 1.5em;
-    font-weight: lighter;
-    font-family: 'Poppins', sans-serif;
+header, footer {
+  border-radius: 10px;
 }
-h3 {
-    font-size: .8em;
-    font-family: 'Poppins', sans-serif;
-    background-color: rgb(114, 66, 4);
-    color: bisque;
-    margin: 0em;
-    padding: 0.2rem;
-    border-radius: 8px 8px 0px 0px;
-}
+header img{
+  float: right;
+  border-radius: 0 10px 0 0;
 
-p {
-    font-size: 0.8em;
-    font-family: 'Poppins', sans-serif;
-    padding: 0.2rem;
-    color: rgb(70, 40, 2);
+}
+}
+@media only screen and (max-width: 768px)
+{
+	.l2main {
+  grid-template-columns: 1fr;
+}
 }
