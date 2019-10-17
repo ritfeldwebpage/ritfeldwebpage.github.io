@@ -17,8 +17,8 @@ nav {
 }
 
 header, footer {
-    background-color: skyblue;
-    color: red;
+    background-color: rgb(137, 190, 161);
+    color: blueviolet;
     text-align: center;
     padding: .5rem;
 }
