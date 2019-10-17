@@ -1,56 +1,50 @@
 <!DOCTYPE html>
-<html lang="en-us" class="gr-ritfeldwebpage.github.io">
-  <head>
-  <title> CIT 230: Assignment Portal Page</title>
+<html lang="en-us">
+
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Willem J. Ritfeld">
-  <meta name="description" content="CIT 230 Assignment portal: Web Fronted Development at Brigham young University-Idaho">
+  <meta name="description" content="Examples of design principles in a grid view.">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Design Document</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link href="css/2-normalize.css" rel="stylesheet">
-  <link href="css/2-large.css" rel="stylesheet">
-  <link href="css/2-medium.css" rel="stylesheet">
   <link href="css/2-small.css" rel="stylesheet">
-  </head>
-  <body data-gr-c-s-loaded="true">
-    <header>
-    <h1 class="12h1">My Design Principles Document</h1>
-    <h2 class="12h2">Willem J. Ritfeld</h2>
+  <link href="css/2-medium.css" rel="stylesheet">
+  <link href="css/2-large.css" rel="stylesheet">
+<body>
+  <header>
+
+    <h1>My Design Principles Document</h1>
+    <h2>Willem J. Ritfeld</h2>
   </header>
+  <nav>
+    <p><a href="https://ritfeldwebpage.github.io/lesson-2/2-designdocument.html">Home</a></p>
+  </nav>
   <main>
-  <p>
-    <a href="https://ritfeldwebpage.github.io/lesson-2/2-designdocument.html">Home</a>
-  </p>
-  <div class="12main">
-  <section>
-  <h2>Hick's Law</h2>
-      <p> id="p1">amazon</p>
-      <p>
-        <a href="https://www.amazon.com/">www.amazon.com</a>
-      </p>
-      <img src="/lesson-2/2-images/www.amazon.com_.jpg" alt="amazon picture">
+    <section>
+      <h3>Hick's Law</h3>
+      <p id="p1">amazon<br>
+        <a href="https://www.amazon.com/">www.amazon.com</a></p>
       <picture>
-      <p>
-        Amazon is guided by four principles: customer obsession rather than competitor focus,
+        <img
+          src="/lesson-2/2-images/www.amazon.com_.jpg" alt="amazon picture">
+      </picture>
+      <p>Amazon is guided by four principles: customer obsession rather than competitor focus,
          passion for invention, commitment to operational excellence, and long-term thinking</p>
       <p>Our Leadership Principles aren't inspirational wall hangings. These Principles work hard, just like we do. 
-      Amazonians use them, every day, whether they're discussing ideas for new projects, deciding on the best solution for a customer's problem, or interviewing candidates.
-    </p>
+      Amazonians use them, every day, whether they're discussing ideas for new projects, deciding on the best solution for a customer's problem, or interviewing candidates.</p>
     </section>
     <section>
-      <h2>White Space and Clean Designing</h2>
-      <p>Pumpkin Bash is a weekend of Halloween fun for kids and animals! Hippos, otters, bears, penguins,
-          and other animals will gobble, smash, and play with pumpkins and autumn-themed treats while little goblins and 
-          ghosts trick-or-treat around the zoo, and enjoy pumpkin displays and other spooktacular activities
-       </p>
-       <p>
-         <a href="https://www.zoo.org/">www.zoo.org</a>
-       </p>
+      <h3>White Space and Clean Designing</h3>
+      <p id="p2">zoo<br>
+        <a href="https://www.zoo.org/">www.zoo.org</a></p>
         <img src="/lesson-2/2-images/www.zoo.org_.jpg" alt="zoo image">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati dolores animi, voluptate quos perspiciatis autem fugiat sit illum facilis, quam nesciunt eveniet aliquam, aut id est voluptates officia totam.
-        </p>
-      
+      <p>Pumpkin Bash is a weekend of Halloween fun for kids and animals! Hippos, otters, bears, penguins,
+         and other animals will gobble, smash, and play with pumpkins and autumn-themed treats while little goblins and 
+         ghosts trick-or-treat around the zoo, and enjoy pumpkin displays and other spooktacular activities
+      </p>
     </section>
     <section>
       <h3>Rule of Thirds</h3>
@@ -67,8 +61,12 @@
     </section>
   </main>
   <footer>
-    <p>&copy; 2019 | Willem J. Ritfeld | Suriname, South America |  <a id="b" href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a></p>
-    <p id="lastMod"></p><script src="lastmodified.js"></script>
+    &copy; <span id="copyyear"></span> | Willem J. Ritfeld | Suriname, South America | Last Updated: <span id="lastUpdate"></span>
+    <a id="b" href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a>
+    <br>
+    <p id="lastMod"></p><script src="js/lastmodified.js"></script>
   </footer>
-  </body>
+  <script src="js/updated.js"></script>
+<script src="js/year.js"></script>
+</body>
 </html>

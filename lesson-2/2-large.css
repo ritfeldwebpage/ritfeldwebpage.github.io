@@ -17,7 +17,7 @@ header, footer,main,nav{
 }
 header, footer {
   text-align: center;
-  background-color: #26312b;
+  background-color: lightseagreen;
   color: #fff;
 }
 
@@ -78,7 +78,7 @@ section img {
 }
 
 main section {
-    border: 1px solid #26312b;
+    border: 1px solid lightseagreen;
     border-radius: 10px 10px 10px 10px;
     padding: .25rem;
     }
