@@ -1,159 +1,131 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust:100%;}
+*{-moz-box-sizing: border-box;-webkit-box-sizing:border-box; box-sizing: border-box;}
+
 body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 100%;
-    line-height: 1.5;
-}
+	background-color: springgreen;
+	padding: 0;
+	margin: 0;
 
-header, nav {
-    margin: 0 auto;
-}
-
- main, footer {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-nav {
-    padding: 0;
-    font-size: .75em;
-    background-color: olive;
-}
-nav ul {
-    padding: 0;
-    margin: 0;
-}
-
-.navigation {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-}
-
-.navigation li:first-child {
-	display: block;
-}
-
-.navigation li {
-    display: none;
-}
-
-nav li a {
-    display: block;
-    text-align: left;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
-}
-
-header, footer {
-    text-align: center;
-    padding: .5rem;
 }
 
 header {
-    line-height: .5;
-    background-color: #94C9FF;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
-
- header img {
-     width: 80px;
-     height: auto;
- }
-
- .motto {
-     font-style: italic;
-     font-size: 1.5em;
-     padding: .2em;
-     margin: 0;
- }
-
- .headings {
-     display: flex;
-     flex-direction: column;
-     padding: 0;
-     margin: 0;
- }
-
-footer {
-    background-color: orange;
-    color: black;
+	background-color: rgb(14, 204, 211);
+	padding: 5px 5px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
 }
 
-a:link {
-    color: slategrey;
+header img {
+	width: 80px;
+	height: auto;
 }
 
-a:visited {
-    color: orange;
+.headings {
+	display: flex;
+	flex-direction: column;
 }
 
-a:hover {
-    color: #0567ca;
-    background-color: lightsalmon;
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
 }
 
-a:active {
-    background-color: #0059b3;
-    color: #ffe44d;  
-}
-
-
-img {
-    max-width: 100%;
-    height: auto;
-    float: left;
-}
-
-h1 h2 h3 {
-    color: #004080;
-}
-
-h1 {
-    font-size: 2.5em;
-    font-weight: bold;
-    font-family: 'Trirong', serif;
-    line-height:100%;
-    margin: .5rem;
-
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: blue;
+	margin-left: 10px;
+	font-size: .9rem;
 }
 
 h2 {
-    font-size: 1.75em;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-
-}
-h3 {
-    font-size: 1.25em;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+	margin-left: 10px;
+	margin-top: -10px;
+	color: white;
 }
 
-h4, h5 {
-    font-size: 1em;
-    font-family: 'Poppins', sans-serif;
-    background-color: #94C9FF;
-    color: #00264d;
+
+main {
+max-width: 45rem;
+  margin: 0 auto;
+  padding: .75rem;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: black;
+}
+main div {
+    border: 1px solid #26312b;
+    border-radius: 10px 10px 10px 10px;
+    padding: 1rem;
+    margin: 10px;
+    background-color: white;
+    }
+
+nav {
+	margin: 0 auto;
+	background-color: mediumseagreen;
+	max-width: 1080px;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+.navigation {
+	list-style: none;
+	text-align: left;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: #fff;
+	font-weight: 700;
 }
 
-p {
-    font-size: 1.25em;
-    font-family: 'Poppins', sans-serif;
-    padding: 0.2rem;
-    color: #00264d;
+p{
+	line-height: .25em;
 }
 
-.contentbox {
-    display: block;
-    margin: 10px auto;
-    border: 1px dashed #0059b3;
-    padding: 15px;
-    font-style: italic;
-}
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
 .responsive li {
 	display: block;
+}
+footer {
+	margin: 0 auto;
+	background-color: mediumseagreen;
+	max-width: 1080px;
+	color: white;
+    padding: .15rem;
+	text-align: center;
+	justify-content:center;
+	font-size: 14px;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 10%;
+	}
+	.navigation li a {
+		color: #fff;
+	}
 }
