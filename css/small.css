@@ -13,18 +13,18 @@ footer {
 }
 
 header, footer {
-    background-color: orange;
-    color: saddlebrown;
+    background-color: rgb(233, 157, 17);
+    color: black;
     text-align: center;
     padding: 1.5rem;
 }
 
 a.school:link {
-    color: saddlebrown;
+    color: slateblue;
 }
 
 a.school:visited {
-    color: saddlebrown;
+    color: black;
 }
 
 a.school:hover {
@@ -32,12 +32,12 @@ a.school:hover {
 }
 
 a.school:active {
-    color: beige;
+    color: seagreen;
 }
 
 img {
     width: 200px;
-    height: 274px;
+    height: auto;
 }
 
 h1 {
