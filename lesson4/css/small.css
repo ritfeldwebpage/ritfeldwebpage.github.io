@@ -52,7 +52,7 @@ header, footer {
 
 header {
     line-height: .5;
-    background-color: lightseagreen;
+    background-color: lightskyblue;
     color: red;
     display: flex;
     align-items: center;
