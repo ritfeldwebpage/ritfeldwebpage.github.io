@@ -73,7 +73,7 @@ footer {
 header {
     line-height: .5;
     background-color: skyblue;
-    color: red;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,12 +99,12 @@ header img {
 }
 
 footer {
-    background-color: #c3f0ff;
-    color: slategray;
+    background-color: seagreen;
+    color: white;
 }
 
 a:link {
-    color: orange;
+    color: blue;
     text-decoration: none;
 }
 
@@ -182,8 +182,8 @@ p {
     position: absolute;
     top: 30px;
     left: 30px;
-    background: black;
-    color: red;
+    background: seagreen;
+    color: white;
     padding: .5rem;
     box-shadow: 0 0 30px wheat;
     opacity: .8;
