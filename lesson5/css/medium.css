@@ -44,20 +44,20 @@
     }
 
     .days {
-        background-color: #0059b3;
+        background-color: red;
         color: #ffe44d;
     }
 
     .precip {
-        border-right: 1px solid #0059b3;
-        border-left: 1px solid #0059b3;
+        border-right: 1px solid darkgrey;
+        border-left: 1px solid dodgerblue;
         padding: 30px;
     }
 
     .temp {
-        border-bottom: 1px solid #0059b3;
-        border-right: 1px solid #0059b3;
-        border-left: 1px solid #0059b3;
+        border-bottom: 1px solid skyblue;
+        border-right: 1px solid red;
+        border-left: 1px solid blanchedalmond;
     }
 
     .article img{
