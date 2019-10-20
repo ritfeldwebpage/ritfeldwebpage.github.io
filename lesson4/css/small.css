@@ -80,14 +80,14 @@ nav {
 }
 .navigation a {
 	display: block;
-	color: #fff;
+	color: seagreen;
 	padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
 }
 .navigation a:hover {
 	color: #000;
-	background-color: #fff;
+	background-color: skyblue;
 	font-weight: 700;
 }
 
@@ -105,7 +105,7 @@ footer {
 	margin: 0 auto;
 	background-color: red;
 	max-width: 1080px;
-	color: white;
+	color: royalblue;
     padding: .15rem;
 	text-align: center;
 	justify-content:center;
