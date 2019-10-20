@@ -60,7 +60,7 @@ footer {
 
 #banner {
     margin: 0;
-    background: wheat;
+    background: white;
     color: seagreen;
     font-size: 2rem;
     text-align: center;
@@ -72,7 +72,7 @@ footer {
 
 header {
     line-height: .5;
-    background-color: skyblue;
+    background-color: rgb(15, 122, 165);
     color: black;
     display: flex;
     align-items: center;
