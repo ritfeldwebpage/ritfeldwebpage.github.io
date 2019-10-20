@@ -182,8 +182,8 @@ p {
     position: absolute;
     top: 30px;
     left: 30px;
-    background: silver;
-    color: skyblue;
+    background: black;
+    color: red;
     padding: .5rem;
     box-shadow: 0 0 30px wheat;
     opacity: .8;
