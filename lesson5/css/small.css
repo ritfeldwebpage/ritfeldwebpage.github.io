@@ -73,7 +73,7 @@ footer {
 header {
     line-height: .5;
     background-color: skyblue;
-    color: orange;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,7 +100,7 @@ header img {
 
 footer {
     background-color: springgreen;
-    color: white;
+    color: black;
 }
 
 a:link {
