@@ -72,7 +72,7 @@ footer {
 
 header {
     line-height: .5;
-    background-color: rgb(179, 192, 201);
+    background-color: red;
     color: black;
     display: flex;
     align-items: center;
