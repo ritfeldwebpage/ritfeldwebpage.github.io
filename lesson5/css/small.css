@@ -60,7 +60,7 @@ footer {
 
 #banner {
     margin: 0;
-    background: rgb(196, 214, 196);
+    background: rgb(200, 223, 200);
     color: rgb(48, 53, 30);
     font-size: 2rem;
     text-align: center;
@@ -152,7 +152,7 @@ h3 {
     font-size: 1.25em;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    color: black;
+    color: rgb(200, 223, 200);
     margin: .5rem 2%;
 }
 
