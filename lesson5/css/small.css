@@ -60,8 +60,8 @@ footer {
 
 #banner {
     margin: 0;
-    background: rgb(223, 233, 223);
-    color: rgb(48, 53, 30);
+    background: rgb(250, 237, 222);
+    color: red;
     font-size: 2rem;
     text-align: center;
 }
@@ -99,8 +99,8 @@ header img {
 }
 
 footer {
-    background-color: darkseagreen;
-    color: black;
+    background-color: rgb(86, 158, 155);
+    color: white;
 }
 
 a:link {
@@ -118,7 +118,7 @@ a:hover {
 }
 
 a:active {
-    background-color: #ffe96cad;
+    background-color: ;
     color: powderblue;
 }
 
@@ -152,7 +152,7 @@ h3 {
     font-size: 1.25em;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    color: rgb(200, 223, 200);
+    color: black;
     margin: .5rem 2%;
 }
 
