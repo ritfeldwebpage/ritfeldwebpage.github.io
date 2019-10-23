@@ -1,1 +1,1 @@
-document.getElementById("lastMod").innerHTML = ( "Last Updated: " + document.lastModified);
+document.getElementById("lastMod").innerHTML = ( "Last Updated:" + document.lastModified);
