@@ -60,7 +60,7 @@ main {
 }
 main figure.myphoto {
     width: 50%;
-    border: 1px red dashed;
+    margin: 0 0 0 2%;
 }
 main figure.myphoto img {width: 100;}
 /*----------- FOOTER --------------*/
