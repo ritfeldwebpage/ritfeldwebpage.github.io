@@ -1,18 +1,27 @@
-@media only screen and (min-width: 60em) {
-  header img {
-      width: 100%;
-  }
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
 
-  main, footer {
-      max-width: 900px;
-  }
-  
-  .wsummary {
-      font-size: 1vw;
-  }
+    header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
 
-  .article img {
-      width: 80%
-  }
+/*----------- BODY --------------*/
 
-}
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+
+
+
+/*----------- MAIN --------------*/
+
+
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */
