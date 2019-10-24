@@ -17,8 +17,8 @@ nav {
 }
 
 header, footer {
-  background-color: rgb(114, 66, 4);
-  color: bisque;
+  background-color: lightgoldenrodyellow;
+  color: red;
   text-align: center;
   padding: .5rem;
 }
@@ -34,13 +34,13 @@ main {
 
 main section {
   margin: 1rem;
-  border: 1px solid rgb(114, 66, 4);
+  border: 1px solid rgb(240, 232, 232);
   border-radius: 10px 10px 0px 0px;
-  background-color:rgb(255, 248, 235);
+  background-color: silver;
   }
 
 a:link {
-  color: rgb(114, 66, 4);
+  color: lightyellow;
 }
 
 a:visited {
@@ -102,5 +102,5 @@ p {
   font-size: 0.8em;
   font-family: 'Poppins', sans-serif;
   padding: 0.2rem;
-  color: rgb(70, 40, 2);
+  color: silver;
 }
