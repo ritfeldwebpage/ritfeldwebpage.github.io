@@ -1,0 +1,148 @@
+https://ritfeldwebpage.github.io/lesson6/preston.html
+
+<!DOCTYPE html>
+<html lang="en-us" class="gr_ritfeldwebpage_github_io">
+       
+<head>
+<meta charset="utf-8">       
+<title>The Wheater Meteorology - Preston Idaho</title>    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="Lesson 5 for Willem J. Ritfeld - CIT 230: Web Frontend Development at Brigham Young University-Idaho">
+<link href="css/normalize.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/normalize.css">
+<link href="css/small.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+</head>
+    
+<body>      
+    <header class="clearfix">
+        <figure class="logo">
+            <img src="images/logo0.png"alt="logo"
+            srcset="images/logo1.png 1x, images/logo2.png 2x,
+            images/logo3. png 3x"> 
+            
+            
+        </figure>
+        <h1>The Wheater Meteorology Company</h1> 
+        <h2>IT's The Services That Counts!</h2>
+    </header>
+           
+    <nav class="clearfix">
+            <ul>       
+             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>   
+             <li><a href="#">Home</a></li>
+             <li class="active"><a href="preston.html">Preston</a></li>
+             <li><a href="#">Soda Springs</a></li>
+             <li><a href="#">Fish Haven</a></li>
+             <li><a href="#">Storm Center</a></li>
+             <li><a href="#">Gallery</a></li>
+            </ul>
+            </nav>
+
+            <main class="clearfix">
+            <h1>Preston, Idaho</h1>
+            <figure class="myphoto">
+                <img src="images/golgotha.jpg" alt="golgotha" sizes="50vw"
+                srcset="images/golgotha200.jpg 200w,
+                           images/golgotha500.jpg 500w,
+                           images/golgotha800.jpg 800w,
+                           images/golgotha1100.jpg 1100w,
+                           ""
+                >
+                <figcaption>The Garden Tomb</figcaption>
+            </figure>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem dui, vehicula ut nisl nec, sagittis semper eros. Quisque venenatis mi eget arcu maximus accumsan. Ut ac erat eget justo imperdiet sollicitudin. Praesent vitae nulla porta, mattis nunc sed, fringilla justo. Quisque mattis dui ac tortor efficitur efficitur ac a nibh. Vestibulum sed lorem nec tortor porta consectetur at a magna. Quisque sed sagittis nunc, nec ultrices enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean sed dui purus. Nulla at malesuada leo. Vivamus vulputate porttitor mauris, quis auctor quam sollicitudin ac. Nulla finibus scelerisque dapibus. Pellentesque commodo, massa congue placerat vestibulum, mi lorem ultrices nunc, sollicitudin vulputate risus dui suscipit nulla. Phasellus faucibus bibendum dui. Quisque eleifend, arcu vitae rutrum aliquet, quam nibh vulputate velit, sed tincidunt massa enim vitae eros. Pellentesque pulvinar enim nulla, nec elementum dui commodo eget.
+
+                Quisque imperdiet urna ultricies enim tempor, vitae vehicula justo congue. Cras sed quam vel ante finibus dapibus sit amet ac dui. Proin id blandit tellus, quis luctus ligula. Praesent mauris turpis, finibus sed sem et, lacinia malesuada nisl. Sed malesuada placerat purus a lacinia. Phasellus magna metus, auctor a enim sit amet, interdum dictum lectus. Nunc molestie tellus pellentesque dui convallis, a fermentum urna viverra. Nullam efficitur tincidunt quam. Cras non felis pellentesque mi luctus euismod quis eu dolor. Donec in velit auctor, iaculis tortor id, faucibus massa. Aliquam vitae lorem eget arcu pulvinar tempor id eu augue. Duis in risus in sapien dictum finibus vitae vitae libero. Suspendisse eu semper nunc. Nunc in sapien sit amet neque pretium sodales a at arcu. Vestibulum pulvinar, justo et placerat viverra, nisi orci laoreet magna, eleifend pharetra massa ipsum sit amet tellus.</p>
+
+            <section class="wsummary">
+                <div class="summaryInfo1"><h3>Weather&nbsp;</h3></div>
+                <div class="summaryInfo2"><h3>Summary&nbsp;&nbsp;&nbsp;</h3></div>
+                <div class="summaryInfo1">Currently:&nbsp;</div>
+                <div class="summaryInfo2">Sunny</div>
+                <div class="summaryInfo1">High: &nbsp;</div>
+                <div class="summaryInfo2"><span id="highTemp">40</span>&#176;F</div>
+                <div class="summaryInfo1">Wind Chill: &nbsp;</div>
+                <div class="summaryInfo2"><span id="wChill"></span></div>
+                <div class="summaryInfo1">Humidity: &nbsp;</div>
+                <div class="summaryInfo2">20%</div>
+                <div class="summaryInfo1">Wind Speed: &nbsp;</div>
+                <div class="summaryInfo2"><span id="windSpeed">5</span> mph</div>
+
+            </section>
+            </div>
+            <div class="forecastContainer">
+            <h3>5 Day Forecast</h3>
+            <div class="forecast">
+
+            <div class="days">Tues</div>
+            <div class="days">Wed</div>
+            <div class="days">Thurs</div>
+            <div class="days">Fri</div>
+            <div class="days">Sat</div>
+
+            <div class="precip"><img src="images/sciencelogo.png" alt="science logo"></div>
+                
+            <div class="precip"><img src="images/cloudsunlogo.png" alt="cloudsun logo"></div>
+               
+            <div class="precip"><img src="images/snowicelogo.png" alt="snow icon"></div>
+              
+            <div class="precip"><img src="images/stockweatherlogo.jpg" alt="stockweather logo"></div>
+            
+            <div class="precip"><img src="images/weatherlogo.png" alt="weather logo"></div>
+            
+            <div class="temp">45 &#8457;</div>
+            <div class="temp">40 &#8457;</div>
+            <div class="temp">30 &#8457;</div>
+            <div class="temp">32 &#8457;</div>
+            <div class="temp">35 &#8457;</div>
+            </div>
+            </div>
+                   
+            <div class="article">
+                <img src="images/picknicklogo.jpg" alt="picknick logo">
+
+                <h3>Enjoying Strong Relationship</h3>
+                <p>Normally we were busy with the preparations, because next Sunday it is already the first Sunday of July. This year unfortunately no Picnic Festival, but we look back with a smile</p>
+                <p>A picnic is a meal in the open air, somewhere other than on a restaurant terrace or at the house. You can have a picnic in the forest, in a park or on the beach. It can be placed on the floor and on furniture brought along such as folding chairs and possibly a folding table. When it is on the floor, a rug, sheet, or towel is sometimes spread.</p>
+               <p>Picnic comes from the French Pique nique, and has been used since the 17th century. [1] Pique means 'choose something' while nique means 'something small'. It therefore refers to the different types of food that are displayed on the rug and from which the participants can choose.</p>
+            </div> 
+            <div class="contactInfo">
+            <div class="map">
+                <img src="images/prestonmap.png" alt="preston idaho map">
+            </div>
+            <div>
+
+            <h3>Weather Presents</h3>
+            <span>93 Main Street<br> Preston, Idaho</span>
+            <br>
+            <br>
+            <span>&#9742;&nbsp;597-863-8455</span><br>
+            <span>&#9993;&nbsp;www.weathermeteororlogy.org</span><br>
+            <p></p><img class="socialMedialogo" src="images/sociallinkedlogo.png" alt= "social linked icon logo">
+            <img class="socialMedialogo" src="images/socialmedialogo.png" alt= "social media icon logo">
+            <img class="socialMedialogo" src="images/youtubelogo.png" alt= "YouTube icon logo">
+            </p>
+            </div>
+            </div>
+            </main>
+            <footer>
+                &copy; <span id="copyyear"></span> | Wheather presents | Willem J. Ritfeld <br>
+            <span id="currentDate"></span>
+            </footer>
+            <script src="js/lastmodified"></script>
+            <script src="js/dateToday.js"></script>
+            <script src="js/year.js"></script>
+           <script src="js/toggle.js"></script>
+           <script src="js/bannerad.js"></script>
+           <script src="windchill.js"></script>
+           <script src="js/updated.js"></script>
+           <script src="js/toggleMenu.js"></script>
+           <script src="js/main.js"></script>
+           
+            
+        </body>   
+</html>
