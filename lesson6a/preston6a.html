@@ -1,36 +1,36 @@
 https://ritfeldwebpage.github.io/lesson6/preston.html
 
+
 <!DOCTYPE html>
 <html lang="en-us" class="gr_ritfeldwebpage_github_io">
        
 <head>
 <meta charset="utf-8">       
-<title>The Wheater Meteorology - Preston Idaho</title>    
+<title>The Wheater Meteorology - Preston, Idaho</title>    
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="description" content="Lesson 5 for Willem J. Ritfeld - CIT 230: Web Frontend Development at Brigham Young University-Idaho">
 <link href="css/normalize.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/normalize.css">
 <link href="css/small.css" rel="stylesheet">
 <link href="css/medium.css" rel="stylesheet">
 <link href="css/large.css" rel="stylesheet">
 </head>
     
-<body>      
-    <header class="clearfix">
-        <figure class="logo">
-            <img src="images/logo0.png"alt="logo"
-            srcset="images/logo1.png 1x, images/logo2.png 2x,
-            images/logo3. png 3x"> 
-            
-            
-        </figure>
-        <h1>The Wheater Meteorology Company</h1> 
-        <h2>IT's The Services That Counts!</h2>
-    </header>
-           
-    <nav class="clearfix">
+<body>       
+    <header>
+           <picture>
+                <img src="images/companylogo.png" alt="companylogo">
+            </picture>
+
+            <section class="headings">
+            <h1>The Wheater Meteorology</h1> 
+            <div class="motto">All info. of the Weather Meteorology</div>
+            </section>
+
+            </header>
+
+            <nav class="navigation">
             <ul>       
              <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>   
              <li><a href="#">Home</a></li>
@@ -42,57 +42,51 @@ https://ritfeldwebpage.github.io/lesson6/preston.html
             </ul>
             </nav>
 
-            <main class="clearfix">
-            <h1>Preston, Idaho</h1>
-            <figure class="myphoto">
-                <img src="images/golgotha.jpg" alt="golgotha" sizes="50vw"
-                srcset="images/golgotha200.jpg 200w,
-                           images/golgotha500.jpg 500w,
-                           images/golgotha800.jpg 800w,
-                           images/golgotha1100.jpg 1100w,
-                           ""
-                >
-                <figcaption>The Garden Tomb</figcaption>
-            </figure>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem dui, vehicula ut nisl nec, sagittis semper eros. Quisque venenatis mi eget arcu maximus accumsan. Ut ac erat eget justo imperdiet sollicitudin. Praesent vitae nulla porta, mattis nunc sed, fringilla justo. Quisque mattis dui ac tortor efficitur efficitur ac a nibh. Vestibulum sed lorem nec tortor porta consectetur at a magna. Quisque sed sagittis nunc, nec ultrices enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean sed dui purus. Nulla at malesuada leo. Vivamus vulputate porttitor mauris, quis auctor quam sollicitudin ac. Nulla finibus scelerisque dapibus. Pellentesque commodo, massa congue placerat vestibulum, mi lorem ultrices nunc, sollicitudin vulputate risus dui suscipit nulla. Phasellus faucibus bibendum dui. Quisque eleifend, arcu vitae rutrum aliquet, quam nibh vulputate velit, sed tincidunt massa enim vitae eros. Pellentesque pulvinar enim nulla, nec elementum dui commodo eget.
-
-                Quisque imperdiet urna ultricies enim tempor, vitae vehicula justo congue. Cras sed quam vel ante finibus dapibus sit amet ac dui. Proin id blandit tellus, quis luctus ligula. Praesent mauris turpis, finibus sed sem et, lacinia malesuada nisl. Sed malesuada placerat purus a lacinia. Phasellus magna metus, auctor a enim sit amet, interdum dictum lectus. Nunc molestie tellus pellentesque dui convallis, a fermentum urna viverra. Nullam efficitur tincidunt quam. Cras non felis pellentesque mi luctus euismod quis eu dolor. Donec in velit auctor, iaculis tortor id, faucibus massa. Aliquam vitae lorem eget arcu pulvinar tempor id eu augue. Duis in risus in sapien dictum finibus vitae vitae libero. Suspendisse eu semper nunc. Nunc in sapien sit amet neque pretium sodales a at arcu. Vestibulum pulvinar, justo et placerat viverra, nisi orci laoreet magna, eleifend pharetra massa ipsum sit amet tellus.</p>
-
+            <main>
+            <h2>Preston, Idaho</h2>
+            <div class="herodiv">
+            <picture>
+                <img src="https://www.walkhighlands.co.uk/fortwilliam/6_5/6_5_6l.JPG" alt="walkhighlands">
+            </picture>
             <section class="wsummary">
-                <div class="summaryInfo1"><h3>Weather&nbsp;</h3></div>
-                <div class="summaryInfo2"><h3>Summary&nbsp;&nbsp;&nbsp;</h3></div>
-                <div class="summaryInfo1">Currently:&nbsp;</div>
-                <div class="summaryInfo2">Sunny</div>
-                <div class="summaryInfo1">High: &nbsp;</div>
-                <div class="summaryInfo2"><span id="highTemp">40</span>&#176;F</div>
-                <div class="summaryInfo1">Wind Chill: &nbsp;</div>
-                <div class="summaryInfo2"><span id="wChill"></span></div>
-                <div class="summaryInfo1">Humidity: &nbsp;</div>
-                <div class="summaryInfo2">20%</div>
-                <div class="summaryInfo1">Wind Speed: &nbsp;</div>
-                <div class="summaryInfo2"><span id="windSpeed">5</span> mph</div>
+            <div class="summaryInfo1">
+            <h3>Weather&nbsp;</h3>
+            </div>
+            <div class="summaryInfo2">
+            <h3>Summary&nbsp;&nbsp;&nbsp;</h3>
+            </div>
 
+            <div class="summaryInfo1">Currently:&nbsp;</div>
+            <div class="summaryInfo2">Sunny</div>
+            <div class="summaryInfo1">High: &nbsp;</div>
+            <div class="summaryInfo2">40 &#8457;</div>
+            <div class="summaryInfo1">Wind Chill: &nbsp;</div>
+            <div class="summaryInfo2">30 &#8457;</div>
+            <div class="summaryInfo1">Humidity: &nbsp;</div>
+            <div class="summaryInfo2">20%</div>
+            <div class="summaryInfo1">Wind Speed: &nbsp;</div>
+            <div class="summaryInfo2">5 mph</div>
             </section>
             </div>
+
             <div class="forecastContainer">
             <h3>5 Day Forecast</h3>
             <div class="forecast">
-
             <div class="days">Tues</div>
             <div class="days">Wed</div>
             <div class="days">Thurs</div>
             <div class="days">Fri</div>
             <div class="days">Sat</div>
 
-            <div class="precip"><img src="images/sciencelogo.png" alt="science logo"></div>
+            <div class="precip"><img src="https://cdn2.iconfinder.com/data/icons/crystalproject/crystal_project_256x256/apps/kweather.png" alt="sun weather"></div>
                 
-            <div class="precip"><img src="images/cloudsunlogo.png" alt="cloudsun logo"></div>
+            <div class="precip"><img src="https://cdn3.iconfinder.com/data/icons/UltimateGnome/256x256/categories/applications-science.png" alt="cloud sun weather"></div>
                
-            <div class="precip"><img src="images/sunnycloud.jpg" alt="sunny cloud logo"></div>
+            <div class="precip"><img src="https://cdn3.iconfinder.com/data/icons/winter-flat-8/32/Winter_season_cold_snow_ice_cloud_weather-512.png" alt="snow icon"></div>
               
-            <div class="precip"><img src="images/stockweatherlogo.png" alt="stock weather logo"></div>
+            <div class="precip"><img src="https://cdn3.iconfinder.com/data/icons/UltimateGnome/128x128/status/stock_weather-storm.png" alt="lightning icon"></div>
             
-            <div class="precip"><img src="images/severe-weather.jpg" alt="severe weather logo"></div>
+            <div class="precip"><img src="https://cdn3.iconfinder.com/data/icons/summer-time-element-vol-1/512/3-256.png" alt="hot sun icon"></div>
             
             <div class="temp">45 &#8457;</div>
             <div class="temp">40 &#8457;</div>
@@ -103,7 +97,7 @@ https://ritfeldwebpage.github.io/lesson6/preston.html
             </div>
                    
             <div class="article">
-                <img src="images/prestonlogo-900px.jpg" alt="prestonlogo-900px logo">
+                <img src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/36362656_2056181907932826_9031054847427739648_o.jpg?_nc_cat=104&_nc_oc=AQlGnq45YWLVoA050vQMuawEaa5pw39d5goZSiD_tVoq9dAiPviGKZVIWO4DLFk9sdo&_nc_ht=scontent-mia3-2.xx&oh=16a5baee06fda1c3ad554d93373d5be5&oe=5E2230C9" alt="picknick festival">
 
                 <h3>Enjoying Strong Relationship</h3>
                 <p>Normally we were busy with the preparations, because next Sunday it is already the first Sunday of July. This year unfortunately no Picnic Festival, but we look back with a smile</p>
@@ -112,7 +106,7 @@ https://ritfeldwebpage.github.io/lesson6/preston.html
             </div> 
             <div class="contactInfo">
             <div class="map">
-                <img src="images/prestonmap1.png" alt="preston map logo">
+                <img src="https://img.bestplaces.net/images/city/1665260_ID_Preston.png" alt="map of preston idaho">
             </div>
             <div>
 
@@ -122,27 +116,31 @@ https://ritfeldwebpage.github.io/lesson6/preston.html
             <br>
             <span>&#9742;&nbsp;597-863-8455</span><br>
             <span>&#9993;&nbsp;www.weathermeteororlogy.org</span><br>
-            <p></p><img class="socialMedialogo" src="images/socialnetworking.png" alt=social logo" width="32" height="auto">
-            <img class="socialMedialogo" src="images/linkedin.png" alt="linkedin logo" width="32" height="auto">
-            <img class="socialMedialogo" src="images/youtubelogo.png" alt="YouTube logo" width="32" height="auto">
+            <p></p><img class="socialMedialogo" src="images/social networking.png" alt= "social media logo" width="26" height="26">
+            <img class="socialMedialogo" src="images/linkedin.png" alt= "social media icon logo" width="26" height="26">
+            <img class="socialMedialogo" src="images/youtubelogo.png" alt= "YouTube icon logo" width="26" height="26">
             </p>
             </div>
             </div>
             </main>
             <footer>
-                &copy; <span id="copyyear"></span> | Wheather presents | Willem J. Ritfeld <br>
+            
+            
+            
+                &copy; <span id="copyyear">2019</span> | Wheather presents | Willem J. Ritfeld <br>
             <span id="currentDate"></span>
             </footer>
-            <script src="js/lastmodified"></script>
             <script src="js/dateToday.js"></script>
             <script src="js/year.js"></script>
            <script src="js/toggle.js"></script>
            <script src="js/bannerad.js"></script>
-           <script src="windchill.js"></script>
+           <script src="js/lastmodified"></script>
            <script src="js/updated.js"></script>
            <script src="js/toggleMenu.js"></script>
            <script src="js/main.js"></script>
            
-            
+            <span class="gr__tooltip-content"></span>
+            <i class="gr__tooltip-logo"></i>
+            <span class="gr__triangle"></span>
         </body>   
 </html>
