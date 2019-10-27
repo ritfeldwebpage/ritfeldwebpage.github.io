@@ -17,7 +17,7 @@ footer{
 
 nav {
     font-size: .75em;
-    background-color: #c3f0ff;
+    background-color: darkseagreen;
 }
 
 nav ul {
@@ -54,15 +54,14 @@ footer {
 }
 
 .active {
-    background-color: #ffe96cad;
-    color: #3aabc6;
     font-weight: bold;
+    text-decoration-line: underline;
 }
 
 #banner {
     margin: 0;
-    background: #ffe44d;
-    color: #0059b3;
+    background: rgb(250, 237, 222);
+    color: red;
     font-size: 2rem;
     text-align: center;
 }
@@ -73,15 +72,15 @@ footer {
 
 header {
     line-height: .5;
-    background-color: #0059b3;
-    color: #ffe44d;
+    background-color: rgb(86, 158, 155);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 header img {
-    width: 80px;
+    width: 100px;
     height: auto;
 }
 
@@ -100,31 +99,38 @@ header img {
 }
 
 footer {
-    background-color: #c3f0ff;
-    color: #00264d;
+    background-color: rgb(86, 158, 155);
+    color: white;
 }
 
 a:link {
-    color: #00264d;
+    color: blue;
     text-decoration: none;
 }
 
 a:visited {
-    color: #006fdd;
+    color: bisque;
 }
 
 a:hover {
-    background-color: #0059b3;
-    color: #ffe44d;
+    background-color: palevioletred;
+    color: black;
 }
 
 a:active {
-    background-color: #ffe96cad;
-    color: #3aabc6;
+    background-color: rgb(22, 180, 22);
+    color: powderblue;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    float: left;
 }
 
 h1 h2 {
-    color: #004080;
+    color: black;
 }
 
 h1 {
@@ -146,7 +152,7 @@ h3 {
     font-size: 1.25em;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    color: #0059b3;
+    color: black;
     margin: .5rem 2%;
 }
 
@@ -154,26 +160,21 @@ h4,
 h5 {
     font-size: 1em;
     font-family: 'Poppins', sans-serif;
-    color: #0059b3;
+    color: black;
 }
 
 p {
     font-size: 1.25em;
     font-family: 'Poppins', sans-serif;
     padding: 0.2rem;
-    color: #00264d;
+    color: black;
     margin: .5rem 2%;
 }
 
 .herodiv {
     display: grid;
     position: relative;
-    grid-column: auto;
-}
-
-.herodiv img {
-    max-width: 100%;
-    margin: auto;
+    margin-bottom: 30px;
 }
 
 .wsummary {
@@ -182,12 +183,13 @@ p {
     position: absolute;
     top: 30px;
     left: 30px;
-    background: #c3f0ff;
-    color: #0059b3;
+    background: seagreen;
+    color: white;
     padding: .5rem;
-    box-shadow: 0 0 30px #00264d;
+    box-shadow: 0 0 30px wheat;
     opacity: .8;
-    font-size: 2vw;
+    
+    
 }
 
 .summaryInfo1 {
@@ -196,7 +198,8 @@ p {
 }
 
 .summaryInfo2 {
-    text-align: left;
+    text-align: right;
+    padding-left: 5px;
 }
 
 .socialMediaLogo {
@@ -209,8 +212,8 @@ p {
 
 .article {
     display: block;
-    border: 1px solid #0059b3;
-    margin: 30px auto;
+    border: 1px solid black;
+    margin-bottom: 30px;
 }
 
 .article img{
@@ -222,8 +225,8 @@ p {
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 20px;
-    margin: 40px auto;
-    border: 1px solid #0059b3;
+    margin: 10px auto;
+    border: 1px solid red;
     padding: 30px;
 }
 
