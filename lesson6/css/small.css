@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 100%;
     line-height: 1.5;
 }
@@ -151,7 +151,7 @@ h2 {
 h3 {
     font-size: 1.25em;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    font-family: '['Roboto']', sans-serif;
     color: black;
     margin: .5rem 2%;
 }
