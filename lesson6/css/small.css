@@ -9,7 +9,17 @@ nav {
     margin: 0 auto;
 }
 
-main,
+main {
+    padding: 0 25;
+    min-height: 10rem;
+}
+main figure.myphoto {
+    width: 50%;
+    margin: 0 0 0 2%;
+
+}
+main figure.myphoto img {width: 100%;}
+main figure.myphoto figcaption {text-align: center;font-size: 0.75;}
 footer{
     max-width: 600px;
     margin: 0 auto;
