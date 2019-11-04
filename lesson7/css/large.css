@@ -1,11 +1,18 @@
 @media only screen and (min-width: 60em) {
-    .navigation li:first-child {
-        display: none;
+    header img {
+        width: 100%;
     }
-    .navigation a:hover {
-        color: whitesmoke;
-        background-color: #D7263D;
-        font-weight: 700;
+  
+    main, footer {
+        max-width: 900px;
     }
-    /*header,nav,main,footer {max-width: 1024px;}*/
-}
+    
+    .wsummary {
+        font-size: 1vw;
+    }
+  
+    .article img {
+        width: 80%
+    }
+  
+  }

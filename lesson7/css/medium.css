@@ -1,22 +1,21 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 40em) {
     header img {
-        width: 100%;
+        width: 85%;
     }
 
-    .headings h1 {
-        font-size: 3rem;
+    nav li a {
+        padding: 12px 1px;
     }
 
-    .motto {
-        letter-spacing: 1.5pt;
-        font-size: larger;
-        margin-left: 17px;
-    }
-
-    .navigation {
+    nav ul {
         display: flex;
     }
 
+    nav li a {
+        text-align: center;
+
+
+    }
     .navigation li:first-child {
         display: none;
     }
@@ -25,60 +24,55 @@
         display: block;
         flex: 1 1 100%;
     }
-
-    .navigation li a {
-        color: #68C5DB;
+    
+      .wsummary {
+      font-size: 1.5vw;
     }
-
-    .navigation a {
-
-        text-align: center;
-    }
-
-    .navigation a:hover {
-        color: whitesmoke;
-        background-color: #D7263D;
-        font-weight: 700;
-    }
-    .fcontainer {
+    .forecastContainer {
         display: block;
         text-align: center;
-        margin: 20px;
+        margin: 20px 20px 50px 20px;
     }
-    .fcontainer h2 {
+
+    .forecastContainer h3{
         margin: 0;
     }
+
     .forecast {
         max-width: 500px;
         display: grid;
         grid-template-columns: auto auto auto auto auto;
-        margin: 0 auto;
+        margin: 0px auto;
         padding: 15px;
     }
-    .d {
-        background-color: #D7263D;
-        color: whitesmoke;
-        font-size: 1rem;
-        border: thin solid #02182B;
-    }
-    .w {
-        border-left: thin solid #02182B;
-        border-right: 1px solid #02182B;
-        background-color: #00AFF7;
-    }
-    .t {
-        background-color: #D7263D;
-        color: whitesmoke;
-        border: thin solid #02182B;
-    }
-    .map {
-        display: block;
-    }
-    .contact {
-        display: grid;
-        grid-template-columns: auto auto;
-        margin-left: 250px;
 
+    .days {
+        background-color: red;
+        color: #ffe44d;
     }
-    
+
+    .precip {
+        border-right: 1px solid darkgrey;
+        border-left: 1px solid dodgerblue;
+        padding: 30px;
+    }
+
+    .temp {
+        border-bottom: 1px solid skyblue;
+        border-right: 1px solid red;
+        border-left: 1px solid blanchedalmond;
+    }
+
+    .article img{
+        max-width: 60%;
+        height: auto;
+        float: right;
+        padding: 0px 0px 5px 10px;
+    }
+
+.map {
+    display: block;
+}
+
+
 }
