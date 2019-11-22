@@ -82,7 +82,7 @@ a:active {
 header {
     line-height: .5;
     background-color: rgb(14, 204, 211);
-    color: black;
+    color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
