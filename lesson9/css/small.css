@@ -3,12 +3,7 @@ body {
     font-size: 100%;
     line-height: 1.5;
 }
-body {
-    background-color: whitesmoke;
-	padding: 0;
-	margin: 0;
 
-}
 header,
 nav {
     margin: 0 auto;
@@ -69,8 +64,8 @@ a:visited {
 }
 
 a:hover {
-    background-color: orange;
-    color: black;
+    background-color: #0059b3;
+    color: #ffe44d;
 }
 
 a:active {
@@ -81,8 +76,8 @@ a:active {
 /*---------------- Header --------------*/
 header {
     line-height: .5;
-    background-color: rgb(14, 204, 211);
-    color: blue;
+    background-color: #0059b3;
+    color: #ffe44d;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,7 +109,7 @@ footer {
 }
 
 footer {
-    background-color: lightseagreen;
+    background-color: #c3f0ff;
     color: #00264d;
 }
 
@@ -183,6 +178,7 @@ p {
 }
 
 .herodiv img {
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -224,7 +220,7 @@ p {
 
 .article img{
     max-width: 100%;
-    height: auto;
+    max-height: 511px;
     float: none;
 }
 /*---------------- contact info --------------*/
@@ -378,4 +374,58 @@ form label.top input:required {
 
 form label.top input:required:valid {
     border-left: green solid 6px;
+}
+
+/*---------------- Home Page --------------*/
+
+.homeArticle {
+    padding: .75rem;
+    border: 1px solid #555;
+}
+
+.homeArticle img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.towns {
+    display: block;
+    padding: 10px;
+    margin: 20px;
+}
+
+.towns p, h3, .wireframe {
+    text-align: center;
+}
+
+.towns section {
+    background-color: #d3f3fd6c;
+    border: 1px solid #0059b3;
+    margin: 20px;
+    max-width: 500px;
+}
+
+.towns p {
+    font-size: 1em;
+    margin: 0; 
+    padding: 1px;
+}
+
+.towns h2 {
+    margin: 20px 0 0 0;
+}
+
+.towns h3 {
+    margin: 0;
+    padding: 0 0 25px 0;
+}
+
+.towns img  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
