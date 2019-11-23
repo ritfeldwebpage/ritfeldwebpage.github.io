@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" class="gr_ritfeldwebpage_github_io wf-trirong-n4-active wf-poppins-n4-active wf-acme-n4-active wf-active">
+<html lang="en-us">
 	<head>
         <meta charset="utf-8">
-        <title>Weather Present-Home</title>
+        <title>SOUTHEAST IDAHO WEATHER</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="Willem J. Ritfeld">
 		<meta name="description" content="Lesson9 for Willem J. Ritfeld - CIT 230: Web Frontend Development at Brigham Young University-Idaho">
@@ -15,98 +15,99 @@
     <body>
     <header>
     <picture>
-       <img src="https://cdn2.iconfinder.com/data/icons/Stock_icons_by_indestudio/128/Weather.png" alt="wheater logo">
+    <img src="https://cdn2.iconfinder.com/data/icons/Stock_icons_by_indestudio/128/Weather.png" alt="wheater logo">
     </picture>
         <section class="headings">
-    <h1>Weather Presents</h1>
+    <h1>Home of Preston Weather</h1>
     <div class="m">Key information of Southeast Idaho</div>
         </section>
     </header>
     <nav>
-    <ul class="navigation"> 
-        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="preston.html">Preston</a></li>
+        <ul class="navigation"> 
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>   
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Preston</a></li>
         <li><a href="#">Soda Springs</a></li>
         <li><a href="#">Fish Haven</a></li>
-        <li><a href="stormcenter.html">Storm Center</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-    </ul>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+        </ul>
     </nav>
-    <main>
-    <h2>Home to Weather Presents</h2>
-       <div class="homeArticle">
-       <picture>
-           <source media="(1min-width:650px)" srcset="images/1min-width.jpg">
-           <source media="(2min-width:465px)" srcset="images/2min-width.jpg">
-           <source media="(3min-width:280px)" srcset="images/3min-width.jpg">
-           <img src="images/3min-width 280px.jpg" alt="southeast idaho" style="width:auto;">  
-       </picture>
-       <p>.........</p>
+    
+<main>
+    <h2>Storm Center, Report Form</h2>
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label class="top">Full Name* <input type="text" name="fullname" pattern="[^\s][A-z0-9À-ž\s]{5,}" required></label>
+            <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+            <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+            <label class="top">Zipcode* <input type="number" name="zipcode" required></label>
+        </fieldset>
 
-       <p>.........</p>
+        <fieldset>
+            <legend>Storm Information</legend>
+            <label class="stormInfo">Date <input type="date" name="stormDate"></label>
+            <label class="stormInfo">Type <input list="stype" name="stormType">
+                <datalist id="stype">
+                    <option value="Vulcano">
+                    <option value="Storm Weather">
+                    <option value="Water Golf">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
+            </label>
+            <label class="rate">Select Storm Severity (1 - 10) &nbsp;<br>
+                <input type="range" name="severity" id="rating" value="5" min="1" max="10" step="1"
+                    oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            </label>
+            <label class="rate">
+                The storm severity is level <span id="ratingvalue">5</span>.
+            </label>
 
-       <p>.........</p>
-       </div>
-       <div class="towns">
-       <section>
-       <div class="towndata">
-       <h2>Fish Haven</div>
-       <h3>This is Fish Haven</h3>
-       <p>Year Founded: 1864</p>
-       <p>Current Population: 501</p>
-       <p>Average Rainfall: 14.2 inches</p>
-       </div>
-       <img src="images/fish-haven.png" alt="photo of Fish Haven" class="townimage">
-       </section> 
-       <section> 
-       <div class="towndata">
-       <h2>Preston</h2>
-       <h3>Home of Napoleon Dynamite</h3>
-       <p>Year Founded: 1866</p>
-       <p>Current Population: 5204</p>
-       <p>Average Rainfall: 16.65 inches</p>
-       </div>
-       <img src="images/NapoleonDynamite.jpg" alt="property of Napoleon Dynamite" class="townimage">
-       </section>
-       <section>
-       <div class="towndata">
-       <h2>Soda Spring</h2>
-       <h3>Historic Oregon Trail Oasis</h3>
-       <p>Year Founded: 1858</p>
-       <p>Current Population: 2985</p>
-       <p>Average Rainfall: 15.75 inches</p>   
-       </div>
-       <img src="images/soda-springs.jpg" alt="welcome board soda springs" class="townimage">
-       </section>
-       </div>
-       <div class="wireframe">
-            <a href="images/small-wireframe.jpg">small wireframe</a>
-            <br>
-            <a href="images/medium-wireframe.jpg">medium wireframe</a>
-            <br>
-            <a href="images/large-wireframe.jpg">large wireframe</a><br>
-            <br>
-            <br>
-       </div>
-       </main>
-       <footer>
-        &copy; <span id="copyyear"></span> | Weather Presents | Willem J Ritfeld <br>
-        <span id="currentDate"></span>
-    </footer>
-    <script src="js/dateToday.js"></script>
-    <script src="js/year.js"></script>
-    <script src="js/toggle.js"></script>
-    <script src="js/imagehandling.js"></script>
-    <script src="js/home.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-        WebFont.load({
-            google: {
-                families: ['Trirong', 'Poppins', 'Acme']
-            }
-        });
-    </script>
+
+            <label class="stormInfo">Region
+                <select name="regions">
+                    <option value="" disabled selected>Select Region</option>
+                    <option value="preston">Preston</option>
+                    <option value="sodasprings">Soda Springs</option>
+                    <option value="fishhaven">Fish Haven</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <Legend>Additional Information</Legend>
+            <label class="danger">Are You In Danger?</label>
+            <label class="addInfo"><input type="radio" name="danger" value="yes"> Yes</label>
+            <label class="addInfo"><input type="radio" name="danger" value="maybe"> Maybe</label>
+            <label class="addInfo"><input type="radio" name="danger" value="no"> No</label><br>
+            <label class="addComment">Additional Comments<textarea name="comment"
+                    placeholder="Enter additional comments here . . ."></textarea></label>
+        </fieldset>
+
+        <input type="submit" value="Report A Storm" class="submitBtn">
+    </form>
+</main>
+
+<footer>
+    &copy; <span id="copyyear"></span> | Weather Presents | Willem J Ritfeld <br>
+    <span id="currentDate"></span>
+</footer>
+<script src="js/dateToday.js"></script>
+<script src="js/year.js"></script>
+<script src="js/toggle.js"></script>
+<script src="js/imagehandling.js"></script>
+<script src="js/adjustRating.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({
+        google: {
+            families: ['Trirong', 'Poppins', 'Acme']
+        }
+    });
+</script>
 </body>
-
 </html>
