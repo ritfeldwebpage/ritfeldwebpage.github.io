@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en" class="gr_ritfeldwebpage_github_io wf-trirong-n4-active wf-poppins-n4-active wf-acme-n4-active wf-active">
 	<head>
         <meta charset="utf-8">
-        <title>SOUTHEAST IDAHO WEATHER</title>
+        <title>Weather Present-Home</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="Willem J. Ritfeld">
 		<meta name="description" content="Lesson9 for Willem J. Ritfeld - CIT 230: Web Frontend Development at Brigham Young University-Idaho">
@@ -15,41 +15,96 @@
     <body>
     <header>
     <picture>
-    <img src="https://cdn2.iconfinder.com/data/icons/Stock_icons_by_indestudio/128/Weather.png" alt="wheater logo">
+       <img src="https://cdn2.iconfinder.com/data/icons/Stock_icons_by_indestudio/128/Weather.png" alt="wheater logo">
     </picture>
         <section class="headings">
-    <h1>StORM CENTER</h1>
-    <div class="m">UPTO-DATE INFORMATION</div>
+    <h1>Weather Presents</h1>
+    <div class="m">Key information of Southeast Idaho</div>
         </section>
     </header>
     <nav>
-        <ul class="navigation"> 
-        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>   
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Preston</a></li>
+    <ul class="navigation"> 
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
         <li><a href="#">Soda Springs</a></li>
         <li><a href="#">Fish Haven</a></li>
-        <li><a href="#">Storm Center</a></li>
-        <li><a href="#">Gallery</a></li>
-        </ul>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
     </nav>
-    <div class="contactInfo">
-        <div class="map">
-            <img src="https://img.bestplaces.net/images/city/1665260_ID_Preston.png" alt="map of preston idaho">
-        </div>
-        <div>
+    <main>
+    <h2>Welcome to Weather Presents Home</h2>
+       <div class="homeArticle">
+       <picture>
+           <source media="(min-width 960px)" srcset="images/min-width 960px.jpg">
+           <source media="(min-width 640)" srcset=".....">
+           <source media="(.......)" srcset=".....">
+           <source media="(.......)" srcset=".....">
+           <img src="........." alt="......." style="width:auto;">  
+       </picture>
+       <p>.........</p>
 
-        <h3>SOUTHEAST WEATHER</h3>
-        <span>93 Main Street<br> Preston, Idaho</span>
-    <footer> 
-        <p> &copy; SOUTHEAST WEATHER | Preston Page | Willem J. Ritfeld</p>
-    <p id="datetoday"></p>
+       <p>.........</p>
+
+       <p>.........</p>
+       </div>
+       <div class="towns">
+       <section>
+       <div class="towndata">
+       <h2>Fish Haven</div>
+       <h3>This is Fish Haven</h3>
+       <p>Year Founded: 1864</p>
+       <p>Current Population: 501</p>
+       <p>Average Rainfall: 14.2 inches</p>
+       </div>
+       <img src="....." alt="......" class="....">
+       </section> 
+       <section> 
+       <div class="towndata">
+       <h2>Preston</h2>
+       <h3>Home of Napoleon Dynamite</h3>
+       <p>Year Founded: 1866</p>
+       <p>Current Population: 5204</p>
+       <p>Average Rainfall: 16.65 inches</p>
+       </div>
+       <img src="....." alt="......" class="....">
+       </section>
+       <section>
+       <div class="towndata">
+       <h2>Soda Spring</h2>
+       <h3>Historic Oregon Trail Oasis</h3>
+       <p>Year Founded: 1858</p>
+       <p>Current Population: 2985</p>
+       <p>Average Rainfall: 15.75 inches</p>   
+       </div>
+       <img src="....." alt="......" class="....">
+       </section>
+       </div>
+       <div class="wireframe">
+        <div class="wireframe">
+            <a href="images/small-wireframe.jpg">small wireframe</a><br>
+            <a href="images/medium-wireframe.jpg">medium wireframe</a><br>
+            <a href="images/large-wireframe.jpg">large wireframe</a><br><br>
+        </div>
+       </main>
+       <footer>
+        &copy; <span id="copyyear"></span> | Weather Presents | Rita F. Bartholomew <br>
+        <span id="currentDate"></span>
     </footer>
-    <script src="js/lastmodified.js"></script>
-    <script src="js/toggleMenu.js"></script>
-    <span class="gr_tooltip"></span>
-    <span class="gr_tooltip-content"></span>
-    <i class="gr_tooltip-logo"></i>
-    <span class="gr_trangle"></span>
-</body> 
+    <script src="js/dateToday.js"></script>
+    <script src="js/year.js"></script>
+    <script src="js/toggle.js"></script>
+    <script src="js/imagehandling.js"></script>
+    <script src="js/home.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Trirong', 'Poppins', 'Acme']
+            }
+        });
+    </script>
+</body>
+
 </html>

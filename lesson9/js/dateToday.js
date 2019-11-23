@@ -1,5 +1,7 @@
-var d = new Date();
-var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-var month = ["January","February","March","April","May","June","July","August","September","October","November", "December"];
-document.getElementById("datetoday").innerHTML = (days[d.getDay()] + ", " + d.getDate() + " " +month[d.getMonth()]+ " " + d.getFullYear());
+var today = new Date();
+
+var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+
+var dateString = today.toLocaleDateString("en-GB", options);
+document.getElementById('currentDate').textContent = dateString;
 

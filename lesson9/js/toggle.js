@@ -1,3 +1,3 @@
-let d = new Date();
-let year = d.getFullYear();
-document.getElementById('copyyear').textContent = year;
+function toggleMenu() {
+	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+}
