@@ -9,7 +9,7 @@ body {
 }
 
 header {
-	background-color: rgb(14, 204, 211);
+	background-color: lightseagreen;
 	padding: 5px 5px;
 	display: flex;
 	align-items:center;
@@ -34,7 +34,7 @@ header img {
 .m {
 	font-style: italic;
 	letter-spacing: 1pt;
-	color: black;
+	color: lightgoldenrodyellow;
 	margin-left: 10px;
 	font-size: .9rem;
 }
@@ -63,7 +63,7 @@ main div {
 
 nav {
 	margin: 0 auto;
-	background-color: mediumseagreen;
+	background-color: lightseagreen;
 	max-width: 1080px;
 	font-family: 'Noto Sans TC', sans-serif;
 }
@@ -86,8 +86,8 @@ nav {
 	text-decoration: none;
 }
 .navigation a:hover {
-	color: #000;
-	background-color: skyblue;
+	color: whitesmoke;
+	background-color: rgb(49, 93, 109);
 	font-weight: 700;
 }
 
@@ -103,7 +103,7 @@ p{
 }
 footer {
 	margin: 0 auto;
-	background-color: seagreen;
+	background-color: lightseagreen;
 	max-width: 1080px;
 	color: y;
     padding: .15rem;
@@ -126,6 +126,6 @@ footer {
 		flex: 1 1 10%;
 	}
 	.navigation li a {
-		color: #000;
+		color: black;
 	}
 }
