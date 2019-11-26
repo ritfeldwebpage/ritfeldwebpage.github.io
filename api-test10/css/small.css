@@ -64,8 +64,8 @@ a:visited {
 }
 
 a:hover {
-    background-color: #0059b3;
-    color: #ffe44d;
+    background-color: sandybrown;
+    color: whitesmoke;
 }
 
 a:active {
@@ -76,8 +76,8 @@ a:active {
 /*---------------- Header --------------*/
 header {
     line-height: .5;
-    background-color: #0059b3;
-    color: #ffe44d;
+    background-color: lightseagreen;
+    color: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,8 +109,8 @@ footer {
 }
 
 footer {
-    background-color: #c3f0ff;
-    color: #00264d;
+    background-color: lightseagreen;
+    color: white;
 }
 
 
