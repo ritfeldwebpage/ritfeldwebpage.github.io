@@ -11,13 +11,3 @@ const desc = jsObject.weather[0].description;  // note how we reference the weat
 document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
 document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
 document.getElementById('icon').setAttribute('alt', desc);
-
-//
-api.openweathermap.org/data/2.5/weather?id=5604473
-
-//
-//api.openweathermap.org/data/2.5/weather?id=5604473&units=imperialAPPID=8f5eeb868c678c79fca553e4efc335f5";
-//API KEY: 8f5eeb868c678c79fca553e4efc335f5
-
-
-  });
