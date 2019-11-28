@@ -1,0 +1,74 @@
+section {
+    border: 1px solid red;
+    margin: 10px;
+    padding: 25px;
+    background-color: lightseagreen;
+}
+div.cards {
+    display: block;
+    background-color: whitesmoke;
+    box-shadow: 0 0 15px #00264d;
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 0 10px 50px 10px;
+}
+
+
+h1 {
+    font-weight: bold;
+    font-family: 'Trirong', serif;
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+    color: darksalmon;
+}
+
+h2 {
+    font-family: 'Trirong', serif;
+    text-align: center;
+    padding: 5px 0 10px 0;
+    margin: 0;
+    color: lightyellow;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 2px 0 2px 0;
+    color: wheat;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px #00264d;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    max-width: 280px;
+
+}
+
+footer {
+    text-align: center;
+    color: limegreen;
+}
+
+@media only screen and (min-width: 749px) {
+    div.cards {
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 767px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+ 
+    div.cards {
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1475px;
+    }
+}
