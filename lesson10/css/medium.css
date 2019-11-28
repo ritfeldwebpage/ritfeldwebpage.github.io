@@ -37,6 +37,7 @@
         display: block;
         text-align: center;
         margin: 20px 20px 50px 20px;
+
     }
 
     .forecastContainer h3 {
@@ -44,7 +45,7 @@
     }
 
     .forecast {
-        max-width: 500px;
+        max-width: 720px;
         display: grid;
         grid-template-columns: auto auto auto auto auto;
         margin: 0px auto;
@@ -54,6 +55,7 @@
     .days {
         background-color: #0059b3;
         color: #ffe44d;
+        padding: 10px;
     }
 
     .precip {
