@@ -1,55 +1,59 @@
 <!DOCTYPE html>
 <html lang="en-us">
-	<head>
-        <meta charset="utf-8">
-        <title>The Wheater Meteorology - Preston Idaho</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="author" content="Willem J. Ritfeld">
-		<meta name="description" content="Lesson 4 for Willem J. Ritfeld - CIT 230: Web Frontend Development at Brigham Young University-Idaho">
-		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-        <link href="css/small.css" rel="stylesheet">
-        <link href="css/medium.css" rel="stylesheet">
-        <link href="css/large.css" rel="stylesheet">
-    </head>    
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <title>The Wheater Meteorology - Preston Idaho</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+        content="Lesson 4 for Willem J. Ritfeld - CIT 230: Web Frontend Development at Brigham Young University-Idaho">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ApValpxpS6DYmp_NU8R9jlCPxDPDiaMyFQlZbLWCCV4mgKhL9lRkEDgHX3ndPtwmILuLEveMDgf1V80ddK2N1g"
+    charset="UTF-8"></script>
+</head>
+
+<body>
     <header>
-    <picture>
-    <img src="https://cdn2.iconfinder.com/data/icons/Stock_icons_by_indestudio/128/Weather.png"  alt="wheater logo">
-    </picture>
+        <picture>
+            <img src="https://cdn2.iconfinder.com/data/icons/Stock_icons_by_indestudio/128/Weather.png"
+                alt="wheater logo">
+        </picture>
         <section class="headings">
-    <h1>The Wheater Meteorology</h1>
-    <div class="m">Information to your needs</div>
+            <h1>The Wheater Meteorology</h1>
+            <div class="m">Information to your needs</div>
         </section>
     </header>
-    <nav>
-        <ul class="navigation"> 
-        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>   
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Preston</a></li>
-        <li><a href="#">Soda Springs</a></li>
-        <li><a href="#">Fish Haven</a></li>
-        <li><a href="#">Storm Center</a></li>
-        <li><a href="#">Gallery</a></li>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
     <main>
-         <h2>Preston, Idaho</h2>
-    <div>
-    Hero image / Wheater Meteorology
-    </div>
-    <div>5 Day forecast</div>
-    <div>Article</div>
-    <div>Contact information</div>
+        <h2>Preston, Idaho</h2>
+        <div class="contentbox">hero image / weather summary</div>
+        <div class="contentbox">5-day forecast</div>
+        <div class="contentbox">article</div>
+        <div class="contentbox">contact information</div>
     </main>
-    <footer> 
-        <p> &copy; The Wheater Meteorology | Preston Page | Willem J. Ritfeld</p>
-    <p id="datetoday"></p>
+
+    <footer>
+        &copy; <span id="copyyear"></span> | Weather Presents | Willem J Ritfeld <br>
+        <span id="currentDate"></span>
     </footer>
-    <script src="js/lastmodified.js"></script>
-    <script src="js/toggleMenu.js"></script>
-    <span class="gr_tooltip"></span>
-    <span class="gr_tooltip-content"></span>
-    <i class="gr_tooltip-logo"></i>
-    <span class="gr_trangle"></span>
-</body> 
+    <script src="js/dateToday.js"></script>
+    <script src="js/year.js"></script>
+    <script src="js/toggle.js"></script>
+</body>
+
 </html>
