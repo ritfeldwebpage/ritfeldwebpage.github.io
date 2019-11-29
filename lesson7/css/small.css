@@ -17,7 +17,7 @@ footer{
 
 nav {
     font-size: .75em;
-    background-color: #c3f0ff;
+    background-color: rosybrown;
 }
 
 nav ul {
@@ -54,15 +54,15 @@ footer {
 }
 
 .active {
-    background-color: #ffe96cad;
-    color: #3aabc6;
+    background-color: red;
+    color: black;
     font-weight: bold;
 }
 
 #banner {
     margin: 0;
-    background: #ffe44d;
-    color: #0059b3;
+    background: lightseagreen;
+    color: red;
     font-size: 2rem;
     text-align: center;
 }
@@ -73,8 +73,8 @@ footer {
 
 header {
     line-height: .5;
-    background-color: #0059b3;
-    color: #ffe44d;
+    background-color: lightseagreen;
+    color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,8 +100,8 @@ header img {
 }
 
 footer {
-    background-color: #c3f0ff;
-    color: #00264d;
+    background-color: lightseagreen;
+    color: lime;
 }
 
 a:link {
@@ -114,12 +114,12 @@ a:visited {
 }
 
 a:hover {
-    background-color: #0059b3;
-    color: #ffe44d;
+    background-color: red;
+    color: red;
 }
 
 a:active {
-    background-color: #ffe96cad;
+    background-color: green;
     color: #3aabc6;
 }
 
