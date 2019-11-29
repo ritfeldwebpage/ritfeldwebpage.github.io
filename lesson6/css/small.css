@@ -27,7 +27,7 @@ footer{
 
 nav {
     font-size: .75em;
-    background-color: darkseagreen;
+    background-color: lightsteelblue;
 }
 
 nav ul {
@@ -70,7 +70,7 @@ footer {
 
 #banner {
     margin: 0;
-    background: rgb(250, 237, 222);
+    background:blue;
     color: red;
     font-size: 2rem;
     text-align: center;
@@ -82,8 +82,8 @@ footer {
 
 header {
     line-height: .5;
-    background-color: rgb(86, 158, 155);
-    color: white;
+    background-color: lightseagreen;
+    color: lime;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,8 +109,8 @@ header img {
 }
 
 footer {
-    background-color: rgb(86, 158, 155);
-    color: white;
+    background-color: lightseagreen;
+    color: whitesmoke;
 }
 
 a:link {
