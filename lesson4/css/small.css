@@ -16,7 +16,7 @@ header, nav {
 nav {
     padding: 0;
     font-size: .75em;
-    background-color: #c3f0ff;
+    background-color: lightgrey;
 }
 nav ul {
     padding: 0;
@@ -79,26 +79,26 @@ header {
  }
 
 footer {
-    background-color: #c3f0ff;
-    color: #00264d;
+    background-color: lightseagreen;
+    color: whitesmoke;
 }
 
 a:link {
-    color: #00264d;
+    color: black;
 }
 
 a:visited {
-    color: #0471df;
+    color: blueviolet;
 }
 
 a:hover {
     color: #0567ca;
-    background-color: #ffe96cad;
+    background-color: springgreen;
 }
 
 a:active {
-    background-color: #0059b3;
-    color: #ffe44d;  
+    background-color: seagreen;
+    color: springgreen;  
 }
 
 
@@ -109,7 +109,7 @@ img {
 }
 
 h1 h2 h3 {
-    color: #004080;
+    color: black;
 }
 
 h1 {
@@ -136,8 +136,8 @@ h3 {
 h4, h5 {
     font-size: 1em;
     font-family: 'Poppins', sans-serif;
-    background-color: #94C9FF;
-    color: #00264d;
+    background-color: black;
+    color: whitesmoke;
 }
 
 p {
