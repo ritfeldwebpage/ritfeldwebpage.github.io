@@ -1,18 +1,18 @@
 @media only screen and (min-width: 60em) {
-  header img {
-      width: 100%;
-  }
-
-  main, footer {
-      max-width: 900px;
-  }
+    header img {
+        width: 100%;
+    }
   
-  .wsummary {
-      font-size: 1vw;
+    main, footer {
+        max-width: 900px;
+    }
+    
+    .wsummary {
+        font-size: 1vw;
+    }
+  
+    .article img {
+        width: 80%
+    }
+  
   }
-
-  .article img {
-      width: 80%
-  }
-
-}
