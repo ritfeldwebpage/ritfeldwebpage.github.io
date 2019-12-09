@@ -10,7 +10,7 @@ nav {
 }
 
 main,
-footer {
+footer{
     max-width: 600px;
     margin: 0 auto;
 }
@@ -54,21 +54,29 @@ nav li a {
     font-weight: bold;
 }
 
+a:link {
+    color: #00264d;
+    text-decoration: none;
+}
 
 a:visited {
-    color: #006fdd;
+    color: lightseagreen;
 }
 
 a:hover {
-    background-color: #0059b3;
+    background-color: red;
     color: #ffe44d;
 }
 
+a:active {
+    background-color: #ffe96cad;
+    color: #3aabc6;
+}
 
 /*---------------- Header --------------*/
 header {
     line-height: .5;
-    background-color: #0059b3;
+    background-color: lightseagreen;
     color: #ffe44d;
     display: flex;
     align-items: center;
@@ -105,14 +113,9 @@ footer {
     color: #00264d;
 }
 
-footer a:link {
-    color: #0059b3;
-    text-decoration: underline;
-}
-
 
 h1 h2 {
-    color: #004bd6;
+    color: #004080;
 }
 
 h1 {
@@ -127,6 +130,7 @@ h2 {
     font-size: 1.75em;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+
 }
 
 h3 {
@@ -135,7 +139,6 @@ h3 {
     font-family: 'Poppins', sans-serif;
     color: #005ab3;
     margin: .5rem 2%;
-    text-align: center;
 }
 
 h4,
@@ -162,13 +165,9 @@ p {
     text-align: center;
 }
 
-.showme {
-    display: block;
-}
+.showme {display: block;}
 
-.hideme {
-    display: none;
-}
+.hideme {display: none;}
 
 
 /*---------------- hero div --------------*/
@@ -179,6 +178,7 @@ p {
 }
 
 .herodiv img {
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -190,8 +190,8 @@ p {
     position: absolute;
     top: 30px;
     left: 30px;
-    background: #c3f0ff;
-    color: #005ab3;
+    background: #c3f0ffa4;
+    color: #004181;
     padding: .5rem;
     box-shadow: 0 0 30px #00264d;
     opacity: .9;
@@ -216,16 +216,13 @@ p {
     display: block;
     border: 1px solid #0059b3;
     margin: 30px auto;
-    padding: 5px;
 }
 
-.article img {
-    max-width: 96%;
+.article img{
+    max-width: 100%;
     max-height: 511px;
     float: none;
-    margin: 5px;
 }
-
 /*---------------- contact info --------------*/
 .socialMediaLogo {
     padding-right: 10px;
@@ -259,10 +256,10 @@ figcaption {
     display: block;
 }
 
-figure img {
-    width: 100%;
-    border: 1px solid #00264d;
-}
+ figure img {
+     width: 100%;
+     border: 1px solid #00264d;
+ }
 
 .weatherGallery {
     display: block;
@@ -272,23 +269,20 @@ figure img {
 /*---------------- Storm Center Form --------------*/
 
 form fieldset {
-    margin: 2rem 0;
+    margin:2rem 0;
     border: 1px solid #445ba9;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 
 form legend {
-    color: #445ba9;
+    color:#445ba9;
     margin: 0 1rem;
     padding: 0 .5rem;
     font-weight: bold;
 }
 
-form label.top,
-label.stormInfo,
-label.addInfo,
-textarea {
+form label.top, label.stormInfo, label.addInfo, textarea {
     display: block;
     padding-top: 1rem;
     color: #0059b3;
@@ -299,13 +293,11 @@ form label.top {
     padding-bottom: 2rem;
 }
 
-form label.top input,
-form label.top select,
-form label.stormInfo input {
+form label.top input, form label.top select, form label.stormInfo input {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
-    border: solid 1px #0059b3;
+    border:solid 1px #0059b3;
     border-radius: 4px;
     padding: .75rem;
     color: #555;
@@ -316,15 +308,14 @@ form label.stormInfo input {
 
 form label.stormInfo {
     display: block;
-    padding-bottom: 1.5rem;
-    ;
+    padding-bottom: 1.5rem;;
 }
 
 form label.stormInfo select {
     padding: 2px;
     font-size: .9rem;
     background-color: #d3f3fd6c;
-    border: solid 1px #0059b3;
+    border:solid 1px #0059b3;
     border-radius: 4px;
 }
 
@@ -345,8 +336,7 @@ form label.addInfo {
     margin: 0;
 }
 
-.danger,
-.addComment {
+.danger, .addComment {
     color: #0059b3;
     font-size: .75em;
     font-weight: bold;
@@ -363,7 +353,7 @@ textarea {
     height: 100px;
     width: 100%;
     max-width: 20rem;
-    border: solid 1px #0059b3;
+    border:solid 1px #0059b3;
     border-radius: 4px;
 }
 
@@ -399,16 +389,13 @@ form label.top input:required:valid {
     margin-right: auto;
     max-width: 100%;
 }
-
 .towns {
     display: block;
     padding: 10px;
     margin: 20px;
 }
 
-.towns p,
-h3,
-.wireframe {
+.towns p, h3, .wireframe {
     text-align: center;
 }
 
