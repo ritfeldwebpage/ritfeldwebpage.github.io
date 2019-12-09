@@ -60,11 +60,11 @@ a:link {
 }
 
 a:visited {
-    color: #006fdd;
+    color: lightseagreen;
 }
 
 a:hover {
-    background-color: #0059b3;
+    background-color: red;
     color: #ffe44d;
 }
 
@@ -76,7 +76,7 @@ a:active {
 /*---------------- Header --------------*/
 header {
     line-height: .5;
-    background-color: #0059b3;
+    background-color: lightseagreen;
     color: #ffe44d;
     display: flex;
     align-items: center;
