@@ -421,7 +421,7 @@ h3,
 
 .towns p {
     font-size: 1em;
-    margin: 0;
+    margin: 0; 
     padding: 1px;
 }
 
@@ -434,7 +434,7 @@ h3,
     padding: 0 0 25px 0;
 }
 
-.towns img {
+.towns img  {
     display: block;
     margin-left: auto;
     margin-right: auto;
