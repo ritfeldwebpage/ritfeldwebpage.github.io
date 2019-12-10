@@ -405,11 +405,12 @@ form label.top input:required:valid {
 }
 
 .homeArticle img {
-    max-width: 900px;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
 }
+
 
 .towns {
     display: block;
