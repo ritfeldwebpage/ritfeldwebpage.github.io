@@ -10,7 +10,7 @@ nav {
 }
 
 main,
-footer{
+footer {
     max-width: 600px;
     margin: 0 auto;
 }
@@ -46,17 +46,13 @@ nav li a {
     padding: 0.75rem;
     text-decoration: none;
     font-size: 0.95rem;
+    color: #005ab3;
 }
 
 .active {
     background-color: #ffe96cad;
     color: #3aabc6;
     font-weight: bold;
-}
-
-a:link {
-    color: #00264d;
-    text-decoration: none;
 }
 
 a:visited {
@@ -68,10 +64,7 @@ a:hover {
     color: #ffe44d;
 }
 
-a:active {
-    background-color: #ffe96cad;
-    color: #3aabc6;
-}
+
 
 /*---------------- Header --------------*/
 header {
@@ -108,13 +101,27 @@ footer {
     padding: .5rem;
 }
 
-footer {
-    background-color: #c3f0ff;
+.footerInfo {
+    background-color: white;
     color: #00264d;
+    padding: 20px;
+}
+
+footer a:link {
+    color: #0059b3;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    background-color: #d3f3fd6c;
+    color: #0059b3;
+    text-decoration: none;
 }
 
 
-h1 h2 {
+
+h2,
+h3 {
     color: #004080;
 }
 
@@ -127,18 +134,18 @@ h1 {
 }
 
 h2 {
-    font-size: 1.75em;
+    font-size: 1.8em;
     font-family: 'Poppins', sans-serif;
     text-align: center;
 
 }
 
 h3 {
-    font-size: 1.25em;
+    font-size: 1.6em;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    color: #005ab3;
     margin: .5rem 2%;
+    text-align: center;
 }
 
 h4,
@@ -165,9 +172,13 @@ p {
     text-align: center;
 }
 
-.showme {display: block;}
+.showme {
+    display: block;
+}
 
-.hideme {display: none;}
+.hideme {
+    display: none;
+}
 
 
 /*---------------- hero div --------------*/
@@ -178,7 +189,6 @@ p {
 }
 
 .herodiv img {
-    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -216,13 +226,17 @@ p {
     display: block;
     border: 1px solid #0059b3;
     margin: 30px auto;
+    padding: 5px;
 }
 
-.article img{
-    max-width: 100%;
-    max-height: 511px;
+
+.article img {
+    max-width: 96%;
     float: none;
+    margin: 10px;
+    padding: 0;
 }
+
 /*---------------- contact info --------------*/
 .socialMediaLogo {
     padding-right: 10px;
@@ -256,10 +270,10 @@ figcaption {
     display: block;
 }
 
- figure img {
-     width: 100%;
-     border: 1px solid #00264d;
- }
+figure img {
+    width: 100%;
+    border: 1px solid #00264d;
+}
 
 .weatherGallery {
     display: block;
@@ -269,20 +283,23 @@ figcaption {
 /*---------------- Storm Center Form --------------*/
 
 form fieldset {
-    margin:2rem 0;
+    margin: 2rem 0;
     border: 1px solid #445ba9;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 
 form legend {
-    color:#445ba9;
+    color: #445ba9;
     margin: 0 1rem;
     padding: 0 .5rem;
     font-weight: bold;
 }
 
-form label.top, label.stormInfo, label.addInfo, textarea {
+form label.top,
+label.stormInfo,
+label.addInfo,
+textarea {
     display: block;
     padding-top: 1rem;
     color: #0059b3;
@@ -293,11 +310,13 @@ form label.top {
     padding-bottom: 2rem;
 }
 
-form label.top input, form label.top select, form label.stormInfo input {
+form label.top input,
+form label.top select,
+form label.stormInfo input {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
-    border:solid 1px #0059b3;
+    border: solid 1px #0059b3;
     border-radius: 4px;
     padding: .75rem;
     color: #555;
@@ -308,14 +327,15 @@ form label.top input, form label.top select, form label.stormInfo input {
 
 form label.stormInfo {
     display: block;
-    padding-bottom: 1.5rem;;
+    padding-bottom: 1.5rem;
+    ;
 }
 
 form label.stormInfo select {
     padding: 2px;
     font-size: .9rem;
     background-color: #d3f3fd6c;
-    border:solid 1px #0059b3;
+    border: solid 1px #0059b3;
     border-radius: 4px;
 }
 
@@ -336,7 +356,8 @@ form label.addInfo {
     margin: 0;
 }
 
-.danger, .addComment {
+.danger,
+.addComment {
     color: #0059b3;
     font-size: .75em;
     font-weight: bold;
@@ -353,7 +374,7 @@ textarea {
     height: 100px;
     width: 100%;
     max-width: 20rem;
-    border:solid 1px #0059b3;
+    border: solid 1px #0059b3;
     border-radius: 4px;
 }
 
@@ -385,17 +406,19 @@ form label.top input:required:valid {
 
 .homeArticle img {
     max-width: 900px;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: center;
-        padding: 15px;
-    }
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 15px;
+}
+
 .towns {
     display: block;
     padding: 10px;
     margin: 20px;
 }
 
-.towns p, h3, .wireframe {
+.towns p,
+h3 {
     text-align: center;
 }
 
@@ -408,7 +431,7 @@ form label.top input:required:valid {
 
 .towns p {
     font-size: 1em;
-    margin: 0; 
+    margin: 0;
     padding: 1px;
 }
 
@@ -419,394 +442,47 @@ form label.top input:required:valid {
 .towns h3 {
     margin: 0;
     padding: 0 0 25px 0;
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+    margin: .5rem 2%;
+    text-align: center;
 }
 
-.towns img  {
+.towns img {
     display: block;
+    max-width: 96%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
     padding-top: 20px;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 100%;
-    line-height: 1.5;
-}
-body {
-    background-color: whitesmoke;
-	padding: 0;
-	margin: 0;
+.events ul {
+    list-style-type: none;
+    padding: 10px 30px 0px 30px;
+    margin: auto;
+
 
 }
-header,
-nav {
-    margin: 0 auto;
-}
 
-main,
-footer{
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-/*---------------- Navigation --------------*/
-nav {
-    font-size: .75em;
-    background-color: #c3f0ff;
-}
-
-nav ul {
-    padding: 0;
-    margin: 0;
-}
-
-.navigation {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-}
-
-.navigation li:first-child {
-    display: block;
-}
-
-.navigation li {
-    display: none;
-}
-
-nav li a {
-    display: block;
-    text-align: left;
-    padding: 0.75rem;
-    text-decoration: none;
-    font-size: 0.95rem;
-}
-
-.active {
-    background-color: #ffe96cad;
-    color: #3aabc6;
-    font-weight: bold;
-}
-
-a:link {
-    color: #00264d;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #006fdd;
-}
-
-a:hover {
-    background-color: orange;
-    color: black;
-}
-
-a:active {
-    background-color: #ffe96cad;
-    color: #3aabc6;
-}
-
-/*---------------- Header --------------*/
-header {
-    line-height: .5;
-    background-color: rgb(14, 204, 211);
-    color: blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header img {
-    width: 80px;
-    height: auto;
-}
-
-.headings {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-}
-
-.motto {
-    font-style: italic;
-    font-size: 1.5em;
-    padding: .2em;
-    margin: 0;
-}
-
-header,
-footer {
+.events li {
+    padding: 1px;
     text-align: center;
-    padding: .5rem;
-}
-
-footer {
-    background-color: lightseagreen;
-    color: #00264d;
-}
-
-
-h1 h2 {
-    color: #004080;
-}
-
-h1 {
-    font-size: 2.5em;
-    font-weight: bold;
-    font-family: 'Trirong', serif;
-    line-height: 100%;
-    margin: .5rem;
-}
-
-h2 {
-    font-size: 1.75em;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-
-}
-
-h3 {
-    font-size: 1.25em;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
     color: #005ab3;
-    margin: .5rem 2%;
-}
-
-h4,
-h5 {
-    font-size: 1em;
-    font-family: 'Poppins', sans-serif;
-    color: #0059b3;
-}
-
-p {
     font-size: 1.25em;
     font-family: 'Poppins', sans-serif;
-    padding: 0.2rem;
-    color: #00264d;
-    margin: .5rem 2%;
 }
 
-/*---------------- Preston Banner --------------*/
-#banner {
-    margin: 0;
-    background: #ffe44d;
-    color: #0059b3;
-    font-size: 2rem;
-    text-align: center;
-}
-
-.showme {display: block;}
-
-.hideme {display: none;}
-
-
-/*---------------- hero div --------------*/
-.herodiv {
-    display: grid;
-    position: relative;
-    grid-column: auto;
-}
-
-.herodiv img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.wsummary {
-    display: grid;
-    grid-template-columns: auto auto;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    background: #c3f0ffa4;
-    color: #004181;
-    padding: .5rem;
-    box-shadow: 0 0 30px #00264d;
-    opacity: .9;
-    font-size: 2vw;
-}
-
-.summaryInfo1 {
-    text-align: right;
-    padding-left: 5px;
-}
-
-.summaryInfo2 {
-    text-align: left;
-}
-
-.forecastContainer {
-    display: none;
-}
-
-/*---------------- article --------------*/
-.article {
+.events {
     display: block;
     border: 1px solid #0059b3;
-    margin: 30px auto;
-}
-
-.article img{
-    max-width: 100%;
-    height: auto;
-    float: none;
-}
-/*---------------- contact info --------------*/
-.socialMediaLogo {
-    padding-right: 10px;
+    margin: auto;
+    padding: 25px;
+    max-width: 500px;
+    background-color: #c3f0ff83;
 }
 
 .contactInfo {
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 20px;
-    margin: 40px auto;
-    border: 1px solid #0059b3;
-    padding: 30px;
-}
-
-.map {
-    display: none;
-}
-
-.responsive li {
-    display: block;
-}
-
-/*---------------- Gallery --------------*/
-figure {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid rgba(128, 128, 128, 0.205);
-}
-
-figcaption {
-    display: block;
-}
-
- figure img {
-     width: 100%;
-     border: 1px solid #00264d;
- }
-
-.weatherGallery {
-    display: block;
-    margin: 0px 0px 25px 0px;
-}
-
-/*---------------- Storm Center Form --------------*/
-
-form fieldset {
-    margin:2rem 0;
-    border: 1px solid #445ba9;
-    border-radius: 10px;
-    padding: .5rem 2%;
-}
-
-form legend {
-    color:#445ba9;
-    margin: 0 1rem;
-    padding: 0 .5rem;
-    font-weight: bold;
-}
-
-form label.top, label.stormInfo, label.addInfo, textarea {
-    display: block;
-    padding-top: 1rem;
-    color: #0059b3;
-    font-size: .8rem;
-}
-
-form label.top {
-    padding-bottom: 2rem;
-}
-
-form label.top input, form label.top select, form label.stormInfo input {
-    -webkit-appearance: none;
-    display: block;
-    font-size: 1rem;
-    border:solid 1px #0059b3;
-    border-radius: 4px;
-    padding: .75rem;
-    color: #555;
-    width: 100%;
-    max-width: 20rem;
-    background-color: #d3f3fd6c;
-}
-
-form label.stormInfo {
-    display: block;
-    padding-bottom: 1.5rem;;
-}
-
-form label.stormInfo select {
-    padding: 2px;
-    font-size: .9rem;
-    background-color: #d3f3fd6c;
-    border:solid 1px #0059b3;
-    border-radius: 4px;
-}
-
-.rate {
-    display: block;
-    color: #0059b3;
-    font-size: .8rem;
-    height: 44px;
-    padding: 10px 0 5px 0;
-}
-
-#rating {
-    margin: 10px 0 15px 0;
-}
-
-form label.addInfo {
-    padding: 0;
-    margin: 0;
-}
-
-.danger, .addComment {
-    color: #0059b3;
-    font-size: .75em;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-}
-
-.addComment {
-    margin-top: 15px;
-}
-
-textarea {
-    padding: 10px;
-    margin: 0;
-    height: 100px;
-    width: 100%;
-    max-width: 20rem;
-    border:solid 1px #0059b3;
-    border-radius: 4px;
-}
-
-form input.submitBtn {
-    border: none;
-    background-color: #0059b3;
-    color: white;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
-}
-
-form label.top input:required {
-    border-left: red solid 6px;
-}
-
-form label.top input:required:valid {
-    border-left: green solid 6px;
+    background: white;
 }
