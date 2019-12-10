@@ -8,14 +8,14 @@
     <meta name="author" content="Willem J. Ritfeld">
     <meta name="description"
         content="Lesson11 for Willem J. Ritfeld - CIT 230: Web Frontend Development at Brigham Young University-Idaho">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
-    <link rel="shortcut icon" href="images/companylogo0.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong%7CPoppins%7CAcme" media="all">
+</head>
 
-<body>
+<body data-gr-c-s-loaded="true">
     <header>
         <picture>
             <img src="https://cdn2.iconfinder.com/data/icons/Stock_icons_by_indestudio/128/Weather.png"
@@ -41,64 +41,12 @@
 
     <main>
         <h2>Preston Weather API</h2>
-      <div class="homeArticle">
+        <div class="homeArticle">
             <picture>
                 <source media="(1min-width:650px)" srcset="images/1min-width 650.jpg">
-                <source media="(2min-width:465px)" srcset="images/2min-width 460.jpg"> 
+                <source media="(2min-width:465px)" srcset="images/2min-width 460.jpg">
                 <img src="images/3min-width 280px.jpg" alt="southeast idaho" style="width:auto;">
             </picture>
-            <section class="wsummary">
-                    <div class="summaryInfo1"><h3>Weather&nbsp;</h3></div>
-                    <div class="summaryInfo2"><h3>Summary&nbsp;&nbsp;&nbsp;</h3></div>
-                    <div class="summaryInfo1">Currently:&nbsp;</div>
-                    <div class="summaryInfo2"><span id="currentCondition">condition</span></div>
-                    <div class="summaryInfo1">Currently: &nbsp;</div>
-                    <div class="summaryInfo2"><span id="currentTemp">00</span>&#176;F</div>
-                    <div class="summaryInfo1">Wind Chill: &nbsp;</div>
-                    <div class="summaryInfo2"><span id="wChill"></span></div>
-                    <div class="summaryInfo1">Humidity: &nbsp;</div>
-                    <div class="summaryInfo2"><span id="humidity">00</span>&#37;</div>
-                    <div class="summaryInfo1">Wind Speed: &nbsp;</div>
-                    <div class="summaryInfo2"><span id="windSpeed">00</span> mph</div>
-            </section>  
-        </div>
-        <div class="forecastContainer">
-            <h3>5 Day Forecast</h3>
-            <div class="forecast">
-                <div class="days">Wed</div>
-                <div class="days">Thu</div>
-                <div class="days">Fri</div>
-                <div class="days">Sat</div>
-                <div class="days">Sun</div>
-
-                <div class="precip">
-                    <img src="https://OpenWeatherMap.org/img/w/04d.png" alt="icon">
-                </div>
-                <div class="precip">
-                    <img src="https://OpenWeatherMap.org/img/w/02d.png" alt="icon">
-                </div>
-                <div class="precip">
-                    <img src="https://OpenWeatherMap.org/img/w/01d.png" alt="icon">
-                </div>
-                <div class="precip">
-                    <img src="https://OpenWeatherMap.org/img/w/13d.png" alt="icon">
-                </div>
-                <div class="precip">
-                    <img src="https://OpenWeatherMap.org/img/w/01d.png" alt="icon">
-                </div>
-
-                <div class="temp">89 &#8457;</div>
-                <div class="temp">87 &#8457;</div>
-                <div class="temp">78 &#8457;</div>
-                <div class="temp">75 &#8457;</div>
-                <div class="temp">72 &#8457;</div>
-            </div>
-        </div>
-        <div class="article">
-            <img src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/36362656_2056181907932826_9031054847427739648_o.jpg?_nc_cat=104&_nc_oc=AQlGnq45YWLVoA050vQMuawEaa5pw39d5goZSiD_tVoq9dAiPviGKZVIWO4DLFk9sdo&_nc_ht=scontent-mia3-2.xx&oh=16a5baee06fda1c3ad554d93373d5be5&oe=5E2230C9"
-                alt="picknick festival">
-
-            <h3>Enjoying Strong Relationship</h3>
             <p>Normally we were busy with the preparations, because next Sunday it is already the first Sunday of July.
                 This year unfortunately no Picnic Festival, but we look back with a smile</p>
             <p>A picnic is a meal in the open air, somewhere other than on a restaurant terrace or at the house. You can
@@ -108,38 +56,72 @@
             <p>Picnic comes from the French Pique nique, and has been used since the 17th century. Pique means
                 'choose something' while nique means 'something small'. It therefore refers to the different types of
                 food that are displayed on the rug and from which the participants can choose.</p>
+
         </div>
+
+        <div class="towns">
+            <section>
+                <div class="towndata">
+                    <h2>Fish Haven</h2>
+                    <h3>This is Fish Haven</h3>
+                    <p>Year Founded: 1864</p>
+                    <p>Current Population: 501</p>
+                    <p>Average Rainfall: 14.2 inches</p>
+                </div>
+                <img src="images/fish-haven.png" alt="photo of Fish Haven">
+            </section>
+
+            <section>
+                <div class="towndata">
+                    <h2>Preston</h2>
+                    <h3>Home of Napoleon Dynamite</h3>
+                    <p>Year Founded: 1866</p>
+                    <p>Current Population: 5204</p>
+                    <p>Average Rainfall: 16.65 inches</p>
+                </div>
+                <img src="images/Pedro-House-Napoleon-Dynamite.jpg" alt="property of Napoleon Dynamite">
+            </section>
+
+            <section>
+                <div class="towndata">
+                    <h2>Soda Spring</h2>
+                    <h3>Historic Oregon Trail Oasis</h3>
+                    <p>Year Founded: 1858</p>
+                    <p>Current Population: 2985</p>
+                    <p>Average Rainfall: 15.75 inches</p>
+                </div>
+                <img src="images/soda-springs.jpg" alt="photo of soda-springs" class="townimage">
+            </section>
+        </div>
+    </main>
+    <footer>
         <div class="contactInfo">
             <div class="map">
                 <img src="https://img.bestplaces.net/images/city/1665260_ID_Preston.png" alt="map of preston idaho">
             </div>
             <div>
-
                 <h3>Preston Weather Forecast</h3>
                 <span>93 Main Street<br> Preston, Idaho</span>
                 <br>
                 <br>
                 <span>&#9742;&nbsp;597-863-8455</span><br>
-                <span>&#9993;&nbsp;www.weathermeteororlogy.org</span><br>
-                <img class="socialMedialogo" src="images/social networking.png" alt="social media logo"
-                    width="26" height="26">
+                <span>&#9993;&nbsp;www.weathermeteororlogy.org</span>
+                <p>
+                <img class="socialMedialogo" src="images/social networking.png" alt="social media logo" width="26"
+                    height="26">
                 <img class="socialMedialogo" src="images/linkedin.png" alt="social media icon logo" width="26"
                     height="26">
                 <img class="socialMedialogo" src="images/youtubelogo.png" alt="YouTube icon logo" width="26"
                     height="26">
+                </p>    
             </div>
         </div>
-    </main>
-    <div class="wireframe">
-            
-        <a href="https://openweathermap.org/api">openweathermap</a>
-    </div>    
-
-    <footer>
         <div class="footerInfo">
-            &copy; <span id="copyyear"></span> | Weather Presents | Willem J Ritfeld <br>
+            <span id="copyyear">2019</span> | Weather Presents Home | Willem J. Ritfeld <br>
+            <a href="https://OpenWeatherMap.org"> Weather Presents Map</a><br>
             <span id="currentDate"></span>
         </div>
+
     </footer>
     <script src="js/dateToday.js"></script>
     <script src="js/year.js"></script>
@@ -153,6 +135,12 @@
             }
         });
     </script>
-</body>
+    </body>
+    <span class="gr_tooltip">
+        ::before
+        <span class="gr_tooltip-content"></span>
+        <i class="gr_tooltip-logo"></i>
+        <span class="gr_triangle"></span>
+</span>
 
 </html>
