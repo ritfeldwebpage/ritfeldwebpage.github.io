@@ -418,8 +418,7 @@ form label.top input:required:valid {
     margin: 20px;
 }
 
-.towns p,
-h3 {
+.towns p,h3 {
     text-align: center;
 }
 
