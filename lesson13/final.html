@@ -2,55 +2,204 @@
 <html lang="en-us">
 
 <head>
-     <meta charset="utf-8">
-     <title>CIT 230 final</title>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta name=" description"
-          content="Lesson 13 for Willem J. Ritfeld - CIT 230: Web Frontend Development at Brigham Young University-Idaho">
-     <link rel="stylesheet" href="css/normalize.css">
-     <link rel="shortcut icon" href="favicon.ico">
-     <link rel="stylesheet" href="css/small.css">
-     <link rel="stylesheet" href="css/medium.css">
-     <script type="text/javascript"
-          src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=tU8KLd1VssWg9DCAGjnO1vsh_LBxsyRwZkzWmhWXSqUKr17Wds04plqcSZSxc40v"
-          charset="UTF-8"></script>
-         
+    <meta charset="utf-8">
+    <title>CIT 230 final</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=" description"
+        content="Lesson 13 for Willem J. Ritfeld - CIT 230: Web Frontend Development at Brigham Young University-Idaho">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <script type="text/javascript"
+        src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=tU8KLd1VssWg9DCAGjnO1vsh_LBxsyRwZkzWmhWXSqUKr17Wds04plqcSZSxc40v"
+        charset="UTF-8"></script>
+
 </head>
+
 <body>
-        <header>
+    <header>
+        <picture>
+            <img src="images/companylogo.png" alt="companylogo">
+        </picture>
+        <section class="headings">
+            <h1>The Temple Inn & Suites</h1>
+            <div class="m"><strong>Free Amenities</strong></div>
+        </section>
+    </header>
+    <ul>
+        <li>Breakfast</li>
+        <li>Exercise/workout room</li>
+        <li>Indoor pool</li>
+        <li>WiFi high-speed internet access and smart TVs</li>
+        <li>Parking</li>
+        <li>Temple shuttle</li>
+        <li>Family history consultation and family ordinance card service</li>
+    </ul>
+    <main>
+        <h2>Santo Domingo Dominican Republic Temple</h2>
+        <div class="homeArticle">
             <picture>
-             <img src="images/companylogo.png" alt="companylogo">
-             </picture>
-             <section class="headings">
-             <h1>The Temple Inn & Suites</h1>
-             <div class="m"><strong>Free Amenities</strong></div>
-             </section>
-        </header>
-        <ul>
-             <li>Breakfast</li>
-             <li>Exercise/workout room</li>
-             <li>Indoor pool</li> 
-             <li>WiFi high-speed internet access and smart TVs</li> 
-             <li>Parking</li> 
-             <li>Temple shuttle</li> 
-             <li>Family history consultation and family ordinance card service</li>  
-            </ul>
-        <main>
-             <h2>The House of The Lord</h2>
-             <div class="homeArticle">
-                 <picture>
-                     <source media="()" srcset="images/temples-santo-domingo-dominican-republic-small.jpg">
-                        <source media="()" srcset="images/temples-santo-domingo-dominican-republic-medium.jpg">
-                            <source media="()" srcset="images/temples-santo-domingo-dominican-republic-large.jpg">
-                                <img src="images/temples-santo-domingo-dominican-republic-large.jpg" alt="the house of the lord"> 
-                 </picture>
-                 <h2>Make a reservation now</h2>
-                 <fieldset>
-                        <legend>Personal Information</legend>
-                        <label class="top">Full Name* <input type="text" name="fullname" pattern="[^\s][A-z0-9À-ž\s]{5,}" required></label>
-                        <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
-                        <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-                        <label class="top">Zipcode* <input type="number" name="zipcode" required></label>
-                    </fieldset>
-             
-             <ul></ul>
+                <source media="()" srcset="images/temples-santo-domingo-dominican-republic-small.jpg">
+                <source media="()" srcset="images/temples-santo-domingo-dominican-republic-medium.jpg">
+                <source media="()" srcset="images/temples-santo-domingo-dominican-republic-large.jpg">
+                <img src="images/temples-santo-domingo-dominican-republic-large.jpg" alt="the house of the lord">
+            </picture>
+            <h2>Online Reservation.</h2>
+            <form action="" method="GET">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Username: </label><input type="text" name="Username" id="name" required autofocus
+                        placeholder="Your username" pattern="[a-zA-Z]{3,}"
+                        title="Please enter in more than three letters">
+                    <label for="email">Email:</label><input type="text" name="email" id="email" required
+                        placeholder="Your Email" pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2}"
+                        title="please enter in a valid email address">
+                    <label for="phone">Phone: </label><input type="tel" name="phone" id="phone" required
+                        placeholder="please enter in your phone number" pattern="[0-9]{4} [0-9]{3}"
+                        title="please enter in a phone number in this format: #### ### ###">
+                    <select name="country" required>
+                        <option value=""> </option>
+                        <option value="US">US</option>
+                        <option value="UK">UK</option>
+                        <option value="Aus">Aus</option>
+                        <option value="Sur">Sur</option>
+                    </select>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Reservation Details:</legend>
+                    <label for="date">Reservation date: </label><input id="date" type="date" name="date"
+                        min="2020-04-15">
+                    <label for="numberOfGuests">Number Of Guests:</label><input id=numberOfGuests" type="number"
+                        name="numberOfGuests" min="1" max="8">
+                    <p>Do you reguire meals?</p>
+                    <label for="yesMeals">Yes: </label><input id="yesMeals" type="radio" name="meals" value="yesMeals">
+                    <label for="noMeals">No: </label><input id="noMeals" type="radio" name="meals" value="noMeals">
+                    <br>
+                    <label for="balcony">Do you require a balcony? </label><input id="balcony" type="checkbox"
+                        name="balcony" value="yes" checked>
+                    <br>
+                    <input type="submit" value="SubmitBottom">
+                </fieldset>
+            </form>
+
+            <H2><strong> Available Navigation and Contact Information.</strong></H2>
+            <div class="detailsSection">
+                <div class="templeInformation">
+                    <div class="infoItem">
+                        <span class="subhead">Address:</span>
+                        Avenida Bolivar N° 825
+                        <br>
+                        Los Robles, Santo Domingo
+                        <br>
+                        10106 Distrito Nacional, Dominican Republic
+                        <br>
+                        <br>
+
+
+                        <span>*Services</span>
+                        <br>
+                        <span>*Clothing rental available</span>
+                        <br>
+                        <span>*Cafeteria available</span>
+                        <br>
+                        <span>*Patron housing available</span>
+                        <br>
+                        <span>*Distribution center nearby</span>
+                    </div>
+
+
+                    <section>
+                        <h2>Apia Samoa Temple</h2>
+                        <img src="https://assets.ldscdn.org/7a/3d/7a3d110242ced710d0ca89fbc9225dfb28d7eb6f/apia_samoa_temple_lds.jpg"
+                            alt="Apia Samoa Temple-1">
+                    </section>
+                    <span class="subhead">Address:</span>
+                    Apia, Pesega, Samoa
+                    <br>
+                    <br>
+
+
+                    <span>*Services</span>
+                    <br>
+                    <span>*No Clothing rental available</span>
+                    <br>
+                    <span>*No Cafeteria available</span>
+                    <br>
+                    <span>*Patron housing available</span>
+                    <br>
+                    <span>*Distribution center nearby</span>
+                </div>
+
+                <section>
+                    <h2>Manaus Brazil Temple</h2>
+                    <img src="https://assets.ldscdn.org/be/80/be80e7e87c7ebbba0de8e6cf420f85f2d0e206b7/manaus_brazil_temple_lds.png"
+                        alt="Manaus Temple-2">
+                </section>
+                <span class="subhead">Address:</span>
+                Avenida Coronel Texeira #3162
+                <br>
+                Ponta Negra
+                <br>
+                69037-000 Manaus - AM, Brazil
+                <br>
+                <br>
+
+                <span>*Services</span>
+                <br>
+                <span>*No Clothing rental available</span>
+                <br>
+                <span>*No Cafeteria available</span>
+                <br>
+                <span>*Patron housing available</span>
+                <br>
+                <span>*Distribution center nearby</span>
+
+                <section>
+                    <h2>Rome Italy Temple</h2>
+                    <img src="https://assets.ldscdn.org/b5/37/b537f20ccdd2f7ba4f3413a055bcaab21fd3e107/rome_italy_temple.png"
+                        alt="Rome Italy Temple-3">
+                </section>
+                <span class="subhead">Address:</span>
+                Via di Settebagni 376
+                <br>
+                Rome RM
+                <br>
+                Italy
+                <br>
+                <br>
+
+                <span>*Services</span>
+                <br>
+                <span>*Clothing rental available</span>
+                <br>
+                <span>*No Cafeteria available</span>
+                <br>
+                <span>*Patron housing available</span>
+                <br>
+                <span>*Distribution center nearby</span>
+
+            </div>
+
+
+
+
+
+
+
+            </section>
+
+
+
+
+
+
+
+
+
+        </div>
+        </div>
+
+
+</html>
